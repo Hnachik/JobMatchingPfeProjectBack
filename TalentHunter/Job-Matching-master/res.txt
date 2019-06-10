@@ -1,0 +1,14 @@
+
+
+Vous avez au moins 5 ans dexpérience dans le domaine du développement mobile.
+Vous êtes rigoureux (se), organisé(e) et force de proposition.
+Vous maîtrisez le développement dapplications mobiles sous iOS natif et/ou Android natif (Java ou Kotlin),
+Vous avez déj réalisé plusieurs applications disponibles sous Google Play / Apple Appstore,
+Vous êtes familier des technologies web services REST,
+Idéalement vous connaissez C#, Python et PHP
+Vous avez déj utilisé des SDK de danalytics ou de troubleshooting mobile (Google Analytics, Flurry, Crashlytics, Fabric...)
+Vous êtes sensible l'expérience utilisateur et êtes force de proposition concernant lUX Design de nos produits
+
+Idéalement vous connaissez tout ou partie de nos outils de travail : SCRUM, Gitlab, Jenkins, AWS
+
+

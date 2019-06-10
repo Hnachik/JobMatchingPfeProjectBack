@@ -1,7 +1,7 @@
 from rest_framework import generics, permissions
 from rest_framework.response import Response
 from knox.models import AuthToken
-from .serializers import UserSerializer, RecruiterRegisterSerializer, LoginSerializer
+from .serializers import UserSerializer, RecruiterRegisterSerializer, LoginSerializer, JobSeekerRegisterSerializer
 from rest_framework import status
 from .models import User
 
@@ -22,7 +22,7 @@ class RecruiterRegisterAPI(generics.GenericAPIView):
 
 
 class JobSeekerRegisterAPI(generics.GenericAPIView):
-    serializer_class = RecruiterRegisterSerializer
+    serializer_class = JobSeekerRegisterSerializer
 
     def post(self, request):
         serializer = self.get_serializer(data=request.data)
@@ -49,13 +49,16 @@ class LoginAPI(generics.GenericAPIView):
         })
 
 
-class UserAPI(generics.ListAPIView):
+class UserAPI(generics.RetrieveAPIView):
     permission_classes = [
         permissions.IsAuthenticated,
     ]
     serializer_class = UserSerializer
 
-    queryset = User.objects.all()
+    def get_object(self):
+        return User.objects.get(id=self.request.user.id)
+
+
 
 
 

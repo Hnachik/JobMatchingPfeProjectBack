@@ -1,12 +1,13 @@
 from rest_framework import generics, permissions, viewsets
 from rest_framework.response import Response
 from rest_framework.views import APIView
-from ..serializers import JobCategorySerializer, JobPostSerializer, RecruiterSerializer
+from ..serializers import JobCategorySerializer, JobPostSerializer, RecruiterSerializer, JobPostAllSerializer
+
 from ..models import JobPost, JobCategory
 from accounts.models import Recruiter
 
 
-class JobCategoryViewSet(viewsets.ModelViewSet):
+class JobCategoryListView(generics.ListAPIView):
     queryset = JobCategory.objects.all()
     serializer_class = JobCategorySerializer
 
@@ -21,6 +22,18 @@ class RecruiterView(generics.RetrieveAPIView):
         return Recruiter.objects.get(user=self.request.user.id)
 
 
+class JobPostAllView(generics.ListAPIView):
+    serializer_class = JobPostAllSerializer
+    queryset = JobPost.objects.all()
+    lookup_field = 'id'
+
+
+class JobPostAllDetailView(generics.RetrieveUpdateDestroyAPIView):
+    serializer_class = JobPostAllSerializer
+    queryset = JobPost.objects.all()
+    lookup_field = 'id'
+
+
 class JobPostCreateView(APIView):
     permission_classes = [
         permissions.IsAuthenticated
@@ -29,8 +42,10 @@ class JobPostCreateView(APIView):
 
     def post(self, request):
         recruiter = Recruiter.objects.get(user=self.request.user.id)
+        print(recruiter)
         data = request.data
         data["recruiter"] = recruiter.id
+        print(data["recruiter"])
         serializer = JobPostSerializer(data=data)
         if serializer.is_valid():
             serializer.save()
@@ -38,15 +53,16 @@ class JobPostCreateView(APIView):
         return Response(serializer.errors, status=400)
 
 
-class JobPostListView(APIView):
+class JobPostListView(generics.ListAPIView):
     permission_classes = [
         permissions.IsAuthenticated
     ]
+    serializer_class = JobPostSerializer
+    lookup_field = 'id'
 
-    def get(self, request):
-        posts = JobPost.objects.filter(recruiter=request.user.recruiter.id)
-        serailizer = JobPostSerializer(posts, many=True)
-        return Response(serailizer.data, status=200)
+    def get_queryset(self):
+        queryset = JobPost.objects.filter(recruiter=self.request.user.recruiter)
+        return queryset
 
 
 class JobPostDetailView(APIView):
@@ -62,8 +78,8 @@ class JobPostDetailView(APIView):
 
     def get(self, request, id=None):
         instance = self.get_object(id)
-        serailizer = JobPostSerializer(instance)
-        return Response(serailizer.data)
+        serializer = JobPostSerializer(instance)
+        return Response(serializer.data)
 
     def put(self, request, id=None):
         data = request.data

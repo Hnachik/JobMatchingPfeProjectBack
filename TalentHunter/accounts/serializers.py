@@ -44,7 +44,7 @@ class JobSeekerRegisterSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = JobSeeker
-        fields = ('user', 'first_name', 'last_name', 'about', 'highest_education', )
+        fields = ('user', 'first_name', 'last_name', 'phone_number', 'address', 'about',)
 
     def create(self, validated_data):
         """
@@ -58,8 +58,9 @@ class JobSeekerRegisterSerializer(serializers.ModelSerializer):
         JobSeeker.objects.update_or_create(user=user,
                                            first_name=validated_data.pop('first_name'),
                                            last_name=validated_data.pop('last_name'),
-                                           about=validated_data.pop('about'),
-                                           highest_education=validated_data.pop('highest_education'))
+                                           phone_number=validated_data.pop('phone_number'),
+                                           address=validated_data.pop('address'),
+                                           about=validated_data.pop('about'))
         return user
 
 

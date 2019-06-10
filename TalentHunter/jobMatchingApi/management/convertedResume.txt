@@ -1,0 +1,121 @@
+Samar Ben Taieb
+
+�l�ve Ing�nieur en Informatique (ENSI)
+
+Formation
+
+   ISG �Institut Sup�rieur de Gestion de Tunis�
+
+   ENSI � Ecole Nationale des Sciences de l'Informatique  de Tunis�
+
+2016- 2019   �l�ve Ing�nieur en Informatique
+
+
+
+2013- 2016   Licence fondamentale en informatique de gestion Mention bien
+
+
+2013             Baccalaur�at section Sciences Exp�rimentale Mention bien
+                     Lyc�e route de la Plage Soliman
+
+
+Exp�riences professionnelles
+
+F�vrier 2019  �  Juin 2019 -   Stage PFE     � Focus Corporation : Conception et d�veloppement
+                                                                        d�une plateforme automatis�e de gestion des talents
+                                                                        permettant de collecter et de traiter automatiquement
+                                                                        toutes les donn�es associ�es provenant des sites
+                                                                        d�emploi et des r�seaux professionnels, afin d�offrir
+                                                                        aux clients les meilleurs profils pour leurs postes
+                                                                        ouverts.
+
+Juillet 2018 �  Ao�t 2018 -     Stage d��t�      � Focus Corporation : Conception et d�veloppement
+                                                                         d�une application web � E-Hardware management �
+
+F�vrier 2018 � Avril 2018  -   PFA                   �  FIS :  Conception et d�veloppement d'une
+                                                                        application web pour la simulation et le contr�le du
+                                                                        trafic routier.
+
+Juillet 2017 �  Ao�t  2017  -  Stage d��t�        �  D�veloppement d'un jeu 3D de type FPS avec Unity.
+
+Juillet 2016 �  Ao�t  2016 -   Stage d��t�        � D�lice Danone : D�veloppement d'un e application
+                                                                         pour la gestion des stagiaires.
+
+F�vrier 2016 � Mai   2016 -    Stage PFE         � Urgence La Rabta Tunis :  Conception et
+                                                                        D�veloppement d'une  Application Web des Dossiers
+                                                                        Informatis�s des malades  admis � l'Urgence.
+
+Mars  2015�  Avril  2015 -      Projet                  � ISG :  R�alisation  d�une application web avec JEE de
+                                                                         gestion d�un h�tel.
+
+Novembre 2014 �  D�cembre  2014 - Projet  � ISG : R�alisation  d�une application de recherche de
+                                                                           meilleur mat�riel sur un ordinateur avec VB.net .
+
+
+
+Juillet 2014 �  Ao�t 2014 -    Stage d��t�       � Atijari Bank : Int�gration au milieu professionnelle
+
+Novembre 2013 � D�cembre  2013 - Projet   � ISG : R�alisation  du jeu de pendu avec le langage C.
+
+Comp�tences
+
+Langues
+
+Syst�me d'exploitation: Windows
+
+Environnement: Visual Studio, Netbeans, Unity, Eclipse,  AtelierB,
+Pycharm, Talend
+
+Base de donn�e: PL/SQL, MySQL, Oracle, SQLServer, MongoDB
+
+Programmation: C, C++, JEE, Java, Python, ASP.net, VB.net, Angular
+
+Conception: UML, Processus Unifi�, Merise, MVC, M�thodes Agile,
+Cycle en V
+
+Technologies: Cloud Computing, Web scraping technologies, Map
+Reduce
+
+
+Fran�ais  :  Parler, �crire, lire
+
+Anglais : Parler, �crire, lire
+
+Arabe : Langue maternelle
+
+Espagnol  : Niveau de base
+
+Vie Associative
+
+Coordonn�es
+
+T�l      (+216) 92 88 16 47
+
+Email   samar.bentaieb@ensi-uma.tn
+
+Adresse   Cit� Naifer , rue Ahmed Rami
+Soliman 8020
+
+2018� Organisatrice de IEEEXtreme 12.0
+
+2017� Organisatrice de IEEEXtreme 11.0
+� Comp�tition de 24 heures de programmation pour r�soudre un ensemble
+de probl�mes.
+
+2017� Organisatrice de forum annuel de l�ENSI 12.0
+� Comit� stand
+
+2017 � Membre   � ENSI Junior Entreprise
+
+2017 � Vice pr�sidente  � IEEE ENSI
+
+2016� Organisatrice de forum annuel de l�ENSI 11.0
+� Tache sponsoring
+� Tache communication
+
+2016 � Membre   � ENSI Junior Entreprise
+
+2016 � Membre � Netlinks ENS
+
+
+
