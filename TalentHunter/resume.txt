@@ -1,0 +1,50 @@
+1
+Backend RPA engineer at SAP Paris
+1-2 ans
+Je cherche à renforcer la culture de la sécurité informatique.
+1
+Matériaux métalliques, polymères
+java
+c++
+5
+developpeur VueJS
+BEPC
+2019-06-30
+2019-05-29
+réalisation des skins entièrement personnalisables pour une vidéo. 
+- L’implémentation d’un éditeur Drag & Drop. 
+- La fourniture de l’accès au code programme. 
+- l’implémentation des outils de génération de style
+1
+2
+Ingénieur mécanique, Citroën
+CAP
+2019-06-29
+2019-06-06
+Assister le manager et organiser les équipes. Technique de management.
+Vérifier toutes les étapes de fabrication et l’organisation interne de manière indépendante. Maîtrise des procédés de fabrication et méthodes de conception.
+01/2016 – 06/2016
+
+Stagiaire ingénieur mécanique, Citroën
+
+Assister le manager et suivre ses techniques de management.
+01/2014 – 03/2015
+
+Stagiaire ingénieur polyvalent en alternance, ArcelorMittal
+
+Apprentissage des procédés de fabrication et vérification des tâches.
+
+* Technologies: Angular2, Python, Django, DjangoRESTFramework, SQLite, scikitlearnNLTK, SublimeText3 et VisualStudioCode
+1
+2
+Institut supérieur de gestion Sousse
+Licence fondamentale, informatique appliquée à la gestion
+
+
+1
+1
+Ecole Nationale de Science de Mécanique
+Cycle d'ingénieur mecanique
+2019-06-30
+2019-06-04
+1

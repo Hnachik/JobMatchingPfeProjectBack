@@ -2,10 +2,10 @@ from collections import defaultdict
 
 
 class FixtureCreator:
-    CATEGORY = 'jobpost.JobCategory'
-    USER = 'auth.User'
-    RECRUITER = 'jobpost.Recruiter'
-    JOB_POST = 'jobpost.JobPost'
+    CATEGORY = 'jobMatchingApi.JobCategory'
+    USER = 'accounts.User'
+    RECRUITER = 'accounts.Recruiter'
+    JOB_POST = 'jobMatchingApi.JobPost'
 
     def __init__(self, data, recruiter_name=None):
         """Initialize fixtures.
@@ -94,26 +94,24 @@ class FixtureCreator:
         i = 0
         j = 0
         for item in self._data:
-            if item['company_logo']:
-                i += 1
-                user_name = 'User' + str(i)
-                user_email = '{s}@gmail.com'.format(s=user_name)
-                self._add_if_not_exists(self.USER, {
-                    'username': user_name,
-                    'password': 'pbkdf2_sha256$120000$Wdnp6gUfa0kb$Z7DK+ljXkluKSYwSGYuNrevvC+mhcHAeOdNgtcEGrFA=',
-                    'email': user_email
-                })
+            i += 1
+            user_name = 'User' + str(i)
+            user_email = '{s}@gmail.com'.format(s=user_name)
+            self._add_if_not_exists(self.USER, {
+                'username': user_name,
+                'password': 'pbkdf2_sha256$120000$Wdnp6gUfa0kb$Z7DK+ljXkluKSYwSGYuNrevvC+mhcHAeOdNgtcEGrFA=',
+                'email': user_email
+            })
 
         for item in self._data:
-            if item['company_logo']:
-                j += 1
-                self._add_if_not_exists(self.RECRUITER, {
-                    'user': j,
-                    'company_name': item['company_name'],
-                    'company_description': item['company_description'],
-                    'company_logo': item['company_logo'],
-                    'address': item['location']
-                })
+            j += 1
+            self._add_if_not_exists(self.RECRUITER, {
+                'user': j,
+                'company_name': item['company_name'],
+                'company_description': item['company_description'],
+                'company_logo': item['company_logo'],
+                'address': item['location']
+            })
 
     def _init_job_posts(self):
 
@@ -123,7 +121,8 @@ class FixtureCreator:
             if recruiter_id:
 
                 self._add_if_not_exists(self.JOB_POST, {
-                    'idRecruiter': recruiter_id,
+                    'recruiter': recruiter_id,
+                    'post_url': item['post_url'],
                     'job_title': item['job_title'],
                     'job_description': item['job_description'],
                     'job_requirements': item['job_requirements'],

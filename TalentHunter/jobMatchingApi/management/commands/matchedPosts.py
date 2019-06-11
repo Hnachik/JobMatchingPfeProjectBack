@@ -17,8 +17,9 @@ from scipy.stats import entropy
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+from accounts.models import Recruiter
 from jobMatchingApi.models import Resume, JobPost, WorkHistory, Education, MatchedPosts
-from jobMatchingApi.serializers import ResumeListSerializer, ResumeSerializer, MatchedJobPostSerializer
+from jobMatchingApi.serializers import ResumeListSerializer, ResumeSerializer, JobPostCleanSerializer
 
 sns.set_style("darkgrid")
 
@@ -93,7 +94,7 @@ def train_lda(data):
     We setup parameters like number of topics, the chunksize to use in Hoffman method
     We also do 2 passes of the data since this is a small dataset, so we want the distributions to stabilize
     """
-    num_topics = 27
+    num_topics = 23
     chunk_size = 150
     dictionary = corpora.Dictionary(data['job_dict'])
     corpus = [dictionary.doc2bow(doc) for doc in data['job_dict']]
@@ -135,17 +136,17 @@ class Command(BaseCommand):
 
     def handle(self, **options):
         posts = JobPost.objects.all()
-        job_data = MatchedJobPostSerializer(posts, many=True).data
-        with open('people.csv', 'w') as output_file:
+        job_data = JobPostCleanSerializer(posts, many=True).data
+        with open('posts.csv', 'w', encoding='utf-8') as output_file:
             dict_writer = csv.DictWriter(output_file, ['id', 'recruiter', 'post_url', 'job_title', 'job_type',
                                                        'publication_date', 'expiration_date', 'job_description',
                                                        'job_requirements', 'location'])
             dict_writer.writeheader()
             dict_writer.writerows(job_data)
 
-        df = pd.read_csv('data.csv',
-                         usecols=['company_name', 'job_title', 'job_type', 'job_description', 'job_requirements',
-                                  'publication_date', 'location'])
+        df = pd.read_csv('posts.csv',
+                         usecols=['recruiter', 'job_title', 'job_type', 'job_description', 'job_requirements',
+                                  'publication_date', 'expiration_date', 'location', 'post_url', 'id'], encoding='utf-8')
         df = df[df['job_description'].map(type) == str]
         df = df[df['job_requirements'].map(type) == str]
         df['job_title'].fillna(value="", inplace=True)
@@ -162,7 +163,7 @@ class Command(BaseCommand):
         # use FreqDist to get a frequency distribution of all words
         fDist = FreqDist(all_words)
         print(len(fDist))  # number of unique words
-        k = 6000
+        k = 4000
         top_k_words = fDist.most_common(k)
 
         # define a function only to keep words in the top k words
@@ -177,7 +178,7 @@ class Command(BaseCommand):
         df['doc_len'] = df['job_dict'].apply(lambda word: len(word))
         df.drop(labels='doc_len', axis=1, inplace=True)
 
-        df = df[df['job_dict'].map(len) >= 50]
+        df = df[df['job_dict'].map(len) >= 40]
         # make sure all job_dict items are lists
         df = df[df['job_dict'].map(type) == list]
         df.reset_index(drop=True, inplace=True)
@@ -191,21 +192,22 @@ class Command(BaseCommand):
         test_df.reset_index(drop=True, inplace=True)
         dictionary, corpus, lda = train_lda(train_df)
 
+        MatchedPosts.objects.filter(seeker=options['seeker']).delete()
         resume = Resume.objects.get(seeker=options['seeker'])
         serializer = ResumeSerializer(resume)
-
+        print(resume.seeker)
         flatted_resume = flatten_json(serializer.data)
-        with open('cv.txt', 'w') as f:
+        with open('cv.txt', 'w', encoding='utf-8') as f:
             for key in flatted_resume.keys():
                 f.write("%s\r\n" % flatted_resume[key])
 
         # with open('cv.txt', 'r') as f:
         #     myResume = f.read()
 
-        with open('aa.txt', 'r') as f:
+        with open('cv.txt', 'r', encoding='utf-8') as f:
             # with open('res.txt', 'r') as f:
-            resume = f.read()
-        job_dict_resume = apply_all(resume)
+            cv = f.read()
+        job_dict_resume = apply_all(cv)
 
         new_bow = dictionary.doc2bow(job_dict_resume)
         new_doc_distribution = np.array([tup[1] for tup in lda.get_document_topics(bow=new_bow)])
@@ -219,10 +221,16 @@ class Command(BaseCommand):
         most_similar_df = train_df[train_df.index.isin(most_sim_ids)]
 
         for i in most_similar_df.index:
-            print(most_similar_df.loc[i, 'job_title'])
-            # matchedPost = MatchedPosts()
-            # matchedPost.seeker = resume.seeker
-            # matchedPost.job_title = most_similar_df.loc[i, 'job_title']
-            # matchedPost.job_description = most_similar_df.loc[i, 'job_description']
-            # matchedPost.cosine_distance = most_similar_df.loc[i, 'cosine_distance']
-            # matchedPost.save()
+            print(Recruiter.objects.get(id=most_similar_df.loc[i, 'recruiter']))
+            matchedPost = MatchedPosts()
+            matchedPost.seeker = resume.seeker
+            matchedPost.recruiter = Recruiter.objects.get(id=most_similar_df.loc[i, 'recruiter'])
+            matchedPost.job_title = most_similar_df.loc[i, 'job_title']
+            matchedPost.post_url = most_similar_df.loc[i, 'post_url']
+            matchedPost.publication_date = most_similar_df.loc[i, 'publication_date']
+            matchedPost.expiration_date = most_similar_df.loc[i, 'expiration_date']
+            matchedPost.location = most_similar_df.loc[i, 'location']
+            matchedPost.job_type = most_similar_df.loc[i, 'job_type']
+            matchedPost.job_description = most_similar_df.loc[i, 'job_description']
+            matchedPost.job_requirements = most_similar_df.loc[i, 'job_requirements']
+            matchedPost.save()

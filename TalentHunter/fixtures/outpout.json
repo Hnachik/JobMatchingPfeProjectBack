@@ -1,0 +1,1675 @@
+[
+    {
+        "model": "jobpost.JobCategory",
+        "pk": 1,
+        "fields": {
+            "category_name": "Centres d'appels"
+        }
+    },
+    {
+        "model": "jobpost.JobCategory",
+        "pk": 2,
+        "fields": {
+            "category_name": "Informatique"
+        }
+    },
+    {
+        "model": "jobpost.JobCategory",
+        "pk": 3,
+        "fields": {
+            "category_name": "Technologie de l'information"
+        }
+    },
+    {
+        "model": "jobpost.JobCategory",
+        "pk": 4,
+        "fields": {
+            "category_name": "Industrie"
+        }
+    },
+    {
+        "model": "jobpost.JobCategory",
+        "pk": 5,
+        "fields": {
+            "category_name": "Transport"
+        }
+    },
+    {
+        "model": "jobpost.JobCategory",
+        "pk": 6,
+        "fields": {
+            "category_name": "Achat - Approvisionnement"
+        }
+    },
+    {
+        "model": "jobpost.JobCategory",
+        "pk": 7,
+        "fields": {
+            "category_name": "Gestion"
+        }
+    },
+    {
+        "model": "jobpost.JobCategory",
+        "pk": 8,
+        "fields": {
+            "category_name": "Distribution"
+        }
+    },
+    {
+        "model": "jobpost.JobCategory",
+        "pk": 9,
+        "fields": {
+            "category_name": "Strat\u00e9gie-Planification"
+        }
+    },
+    {
+        "model": "jobpost.JobCategory",
+        "pk": 10,
+        "fields": {
+            "category_name": "Services a la clientele"
+        }
+    },
+    {
+        "model": "jobpost.JobCategory",
+        "pk": 11,
+        "fields": {
+            "category_name": "T\u00e9l\u00e9communications"
+        }
+    },
+    {
+        "model": "jobpost.JobCategory",
+        "pk": 12,
+        "fields": {
+            "category_name": "Marketing"
+        }
+    },
+    {
+        "model": "jobpost.JobCategory",
+        "pk": 13,
+        "fields": {
+            "category_name": "Administration"
+        }
+    },
+    {
+        "model": "jobpost.JobCategory",
+        "pk": 14,
+        "fields": {
+            "category_name": "Commerce"
+        }
+    },
+    {
+        "model": "jobpost.JobCategory",
+        "pk": 15,
+        "fields": {
+            "category_name": "Vente"
+        }
+    },
+    {
+        "model": "jobpost.JobCategory",
+        "pk": 16,
+        "fields": {
+            "category_name": "Commerce de d\u00e9tail"
+        }
+    },
+    {
+        "model": "jobpost.JobCategory",
+        "pk": 17,
+        "fields": {
+            "category_name": "Electricit\u00e9"
+        }
+    },
+    {
+        "model": "jobpost.JobCategory",
+        "pk": 18,
+        "fields": {
+            "category_name": "M\u00e9canique"
+        }
+    },
+    {
+        "model": "jobpost.JobCategory",
+        "pk": 19,
+        "fields": {
+            "category_name": "Electronique"
+        }
+    },
+    {
+        "model": "jobpost.JobCategory",
+        "pk": 20,
+        "fields": {
+            "category_name": "Installation-Entretien-Reparation"
+        }
+    },
+    {
+        "model": "jobpost.JobCategory",
+        "pk": 21,
+        "fields": {
+            "category_name": "H\u00f4tellerie et Tourisme"
+        }
+    },
+    {
+        "model": "jobpost.JobCategory",
+        "pk": 22,
+        "fields": {
+            "category_name": "Ingenierie"
+        }
+    },
+    {
+        "model": "jobpost.JobCategory",
+        "pk": 23,
+        "fields": {
+            "category_name": "Construction"
+        }
+    },
+    {
+        "model": "jobpost.JobCategory",
+        "pk": 24,
+        "fields": {
+            "category_name": "Formation"
+        }
+    },
+    {
+        "model": "jobpost.JobCategory",
+        "pk": 25,
+        "fields": {
+            "category_name": "Ressources humaines"
+        }
+    },
+    {
+        "model": "jobpost.JobCategory",
+        "pk": 26,
+        "fields": {
+            "category_name": "Consulting"
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 1,
+        "fields": {
+            "username": "User1",
+            "password": "pbkdf2_sha256$120000$Wdnp6gUfa0kb$Z7DK+ljXkluKSYwSGYuNrevvC+mhcHAeOdNgtcEGrFA=",
+            "email": "User1@gmail.com"
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 2,
+        "fields": {
+            "username": "User2",
+            "password": "pbkdf2_sha256$120000$Wdnp6gUfa0kb$Z7DK+ljXkluKSYwSGYuNrevvC+mhcHAeOdNgtcEGrFA=",
+            "email": "User2@gmail.com"
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 3,
+        "fields": {
+            "username": "User3",
+            "password": "pbkdf2_sha256$120000$Wdnp6gUfa0kb$Z7DK+ljXkluKSYwSGYuNrevvC+mhcHAeOdNgtcEGrFA=",
+            "email": "User3@gmail.com"
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 4,
+        "fields": {
+            "username": "User4",
+            "password": "pbkdf2_sha256$120000$Wdnp6gUfa0kb$Z7DK+ljXkluKSYwSGYuNrevvC+mhcHAeOdNgtcEGrFA=",
+            "email": "User4@gmail.com"
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 5,
+        "fields": {
+            "username": "User5",
+            "password": "pbkdf2_sha256$120000$Wdnp6gUfa0kb$Z7DK+ljXkluKSYwSGYuNrevvC+mhcHAeOdNgtcEGrFA=",
+            "email": "User5@gmail.com"
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 6,
+        "fields": {
+            "username": "User6",
+            "password": "pbkdf2_sha256$120000$Wdnp6gUfa0kb$Z7DK+ljXkluKSYwSGYuNrevvC+mhcHAeOdNgtcEGrFA=",
+            "email": "User6@gmail.com"
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 7,
+        "fields": {
+            "username": "User7",
+            "password": "pbkdf2_sha256$120000$Wdnp6gUfa0kb$Z7DK+ljXkluKSYwSGYuNrevvC+mhcHAeOdNgtcEGrFA=",
+            "email": "User7@gmail.com"
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 8,
+        "fields": {
+            "username": "User8",
+            "password": "pbkdf2_sha256$120000$Wdnp6gUfa0kb$Z7DK+ljXkluKSYwSGYuNrevvC+mhcHAeOdNgtcEGrFA=",
+            "email": "User8@gmail.com"
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 9,
+        "fields": {
+            "username": "User9",
+            "password": "pbkdf2_sha256$120000$Wdnp6gUfa0kb$Z7DK+ljXkluKSYwSGYuNrevvC+mhcHAeOdNgtcEGrFA=",
+            "email": "User9@gmail.com"
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 10,
+        "fields": {
+            "username": "User10",
+            "password": "pbkdf2_sha256$120000$Wdnp6gUfa0kb$Z7DK+ljXkluKSYwSGYuNrevvC+mhcHAeOdNgtcEGrFA=",
+            "email": "User10@gmail.com"
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 11,
+        "fields": {
+            "username": "User11",
+            "password": "pbkdf2_sha256$120000$Wdnp6gUfa0kb$Z7DK+ljXkluKSYwSGYuNrevvC+mhcHAeOdNgtcEGrFA=",
+            "email": "User11@gmail.com"
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 12,
+        "fields": {
+            "username": "User12",
+            "password": "pbkdf2_sha256$120000$Wdnp6gUfa0kb$Z7DK+ljXkluKSYwSGYuNrevvC+mhcHAeOdNgtcEGrFA=",
+            "email": "User12@gmail.com"
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 13,
+        "fields": {
+            "username": "User13",
+            "password": "pbkdf2_sha256$120000$Wdnp6gUfa0kb$Z7DK+ljXkluKSYwSGYuNrevvC+mhcHAeOdNgtcEGrFA=",
+            "email": "User13@gmail.com"
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 14,
+        "fields": {
+            "username": "User14",
+            "password": "pbkdf2_sha256$120000$Wdnp6gUfa0kb$Z7DK+ljXkluKSYwSGYuNrevvC+mhcHAeOdNgtcEGrFA=",
+            "email": "User14@gmail.com"
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 15,
+        "fields": {
+            "username": "User15",
+            "password": "pbkdf2_sha256$120000$Wdnp6gUfa0kb$Z7DK+ljXkluKSYwSGYuNrevvC+mhcHAeOdNgtcEGrFA=",
+            "email": "User15@gmail.com"
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 16,
+        "fields": {
+            "username": "User16",
+            "password": "pbkdf2_sha256$120000$Wdnp6gUfa0kb$Z7DK+ljXkluKSYwSGYuNrevvC+mhcHAeOdNgtcEGrFA=",
+            "email": "User16@gmail.com"
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 17,
+        "fields": {
+            "username": "User17",
+            "password": "pbkdf2_sha256$120000$Wdnp6gUfa0kb$Z7DK+ljXkluKSYwSGYuNrevvC+mhcHAeOdNgtcEGrFA=",
+            "email": "User17@gmail.com"
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 18,
+        "fields": {
+            "username": "User18",
+            "password": "pbkdf2_sha256$120000$Wdnp6gUfa0kb$Z7DK+ljXkluKSYwSGYuNrevvC+mhcHAeOdNgtcEGrFA=",
+            "email": "User18@gmail.com"
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 19,
+        "fields": {
+            "username": "User19",
+            "password": "pbkdf2_sha256$120000$Wdnp6gUfa0kb$Z7DK+ljXkluKSYwSGYuNrevvC+mhcHAeOdNgtcEGrFA=",
+            "email": "User19@gmail.com"
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 20,
+        "fields": {
+            "username": "User20",
+            "password": "pbkdf2_sha256$120000$Wdnp6gUfa0kb$Z7DK+ljXkluKSYwSGYuNrevvC+mhcHAeOdNgtcEGrFA=",
+            "email": "User20@gmail.com"
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 21,
+        "fields": {
+            "username": "User21",
+            "password": "pbkdf2_sha256$120000$Wdnp6gUfa0kb$Z7DK+ljXkluKSYwSGYuNrevvC+mhcHAeOdNgtcEGrFA=",
+            "email": "User21@gmail.com"
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 22,
+        "fields": {
+            "username": "User22",
+            "password": "pbkdf2_sha256$120000$Wdnp6gUfa0kb$Z7DK+ljXkluKSYwSGYuNrevvC+mhcHAeOdNgtcEGrFA=",
+            "email": "User22@gmail.com"
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 23,
+        "fields": {
+            "username": "User23",
+            "password": "pbkdf2_sha256$120000$Wdnp6gUfa0kb$Z7DK+ljXkluKSYwSGYuNrevvC+mhcHAeOdNgtcEGrFA=",
+            "email": "User23@gmail.com"
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 24,
+        "fields": {
+            "username": "User24",
+            "password": "pbkdf2_sha256$120000$Wdnp6gUfa0kb$Z7DK+ljXkluKSYwSGYuNrevvC+mhcHAeOdNgtcEGrFA=",
+            "email": "User24@gmail.com"
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 25,
+        "fields": {
+            "username": "User25",
+            "password": "pbkdf2_sha256$120000$Wdnp6gUfa0kb$Z7DK+ljXkluKSYwSGYuNrevvC+mhcHAeOdNgtcEGrFA=",
+            "email": "User25@gmail.com"
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 26,
+        "fields": {
+            "username": "User26",
+            "password": "pbkdf2_sha256$120000$Wdnp6gUfa0kb$Z7DK+ljXkluKSYwSGYuNrevvC+mhcHAeOdNgtcEGrFA=",
+            "email": "User26@gmail.com"
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 27,
+        "fields": {
+            "username": "User27",
+            "password": "pbkdf2_sha256$120000$Wdnp6gUfa0kb$Z7DK+ljXkluKSYwSGYuNrevvC+mhcHAeOdNgtcEGrFA=",
+            "email": "User27@gmail.com"
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 28,
+        "fields": {
+            "username": "User28",
+            "password": "pbkdf2_sha256$120000$Wdnp6gUfa0kb$Z7DK+ljXkluKSYwSGYuNrevvC+mhcHAeOdNgtcEGrFA=",
+            "email": "User28@gmail.com"
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 29,
+        "fields": {
+            "username": "User29",
+            "password": "pbkdf2_sha256$120000$Wdnp6gUfa0kb$Z7DK+ljXkluKSYwSGYuNrevvC+mhcHAeOdNgtcEGrFA=",
+            "email": "User29@gmail.com"
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 30,
+        "fields": {
+            "username": "User30",
+            "password": "pbkdf2_sha256$120000$Wdnp6gUfa0kb$Z7DK+ljXkluKSYwSGYuNrevvC+mhcHAeOdNgtcEGrFA=",
+            "email": "User30@gmail.com"
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 31,
+        "fields": {
+            "username": "User31",
+            "password": "pbkdf2_sha256$120000$Wdnp6gUfa0kb$Z7DK+ljXkluKSYwSGYuNrevvC+mhcHAeOdNgtcEGrFA=",
+            "email": "User31@gmail.com"
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 32,
+        "fields": {
+            "username": "User32",
+            "password": "pbkdf2_sha256$120000$Wdnp6gUfa0kb$Z7DK+ljXkluKSYwSGYuNrevvC+mhcHAeOdNgtcEGrFA=",
+            "email": "User32@gmail.com"
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 33,
+        "fields": {
+            "username": "User33",
+            "password": "pbkdf2_sha256$120000$Wdnp6gUfa0kb$Z7DK+ljXkluKSYwSGYuNrevvC+mhcHAeOdNgtcEGrFA=",
+            "email": "User33@gmail.com"
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 34,
+        "fields": {
+            "username": "User34",
+            "password": "pbkdf2_sha256$120000$Wdnp6gUfa0kb$Z7DK+ljXkluKSYwSGYuNrevvC+mhcHAeOdNgtcEGrFA=",
+            "email": "User34@gmail.com"
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 35,
+        "fields": {
+            "username": "User35",
+            "password": "pbkdf2_sha256$120000$Wdnp6gUfa0kb$Z7DK+ljXkluKSYwSGYuNrevvC+mhcHAeOdNgtcEGrFA=",
+            "email": "User35@gmail.com"
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 36,
+        "fields": {
+            "username": "User36",
+            "password": "pbkdf2_sha256$120000$Wdnp6gUfa0kb$Z7DK+ljXkluKSYwSGYuNrevvC+mhcHAeOdNgtcEGrFA=",
+            "email": "User36@gmail.com"
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 37,
+        "fields": {
+            "username": "User37",
+            "password": "pbkdf2_sha256$120000$Wdnp6gUfa0kb$Z7DK+ljXkluKSYwSGYuNrevvC+mhcHAeOdNgtcEGrFA=",
+            "email": "User37@gmail.com"
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 38,
+        "fields": {
+            "username": "User38",
+            "password": "pbkdf2_sha256$120000$Wdnp6gUfa0kb$Z7DK+ljXkluKSYwSGYuNrevvC+mhcHAeOdNgtcEGrFA=",
+            "email": "User38@gmail.com"
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 39,
+        "fields": {
+            "username": "User39",
+            "password": "pbkdf2_sha256$120000$Wdnp6gUfa0kb$Z7DK+ljXkluKSYwSGYuNrevvC+mhcHAeOdNgtcEGrFA=",
+            "email": "User39@gmail.com"
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 40,
+        "fields": {
+            "username": "User40",
+            "password": "pbkdf2_sha256$120000$Wdnp6gUfa0kb$Z7DK+ljXkluKSYwSGYuNrevvC+mhcHAeOdNgtcEGrFA=",
+            "email": "User40@gmail.com"
+        }
+    },
+    {
+        "model": "jobpost.Recruiter",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "company_name": "IBSTN : International Business Services Tunisie",
+            "company_description": "\u00a0",
+            "company_logo": "https://www.tanitjobs.com/files/pictures/IBSTN.png",
+            "address": "Les Berges du Lac, Tunis, Tunisie"
+        }
+    },
+    {
+        "model": "jobpost.Recruiter",
+        "pk": 2,
+        "fields": {
+            "user": 2,
+            "company_name": "ECG Assurances",
+            "company_description": "Groupe Pereire assurances, leader europ\u00e9en dans la distribution de produits d\u2019assurances, implante la totalit\u00e9 de ses filiales \u00e0 Tunis\u00a0:",
+            "company_logo": "https://www.tanitjobs.com/files/pictures/LOGO_21.png",
+            "address": "Tunis, Tunisie"
+        }
+    },
+    {
+        "model": "jobpost.Recruiter",
+        "pk": 3,
+        "fields": {
+            "user": 3,
+            "company_name": "MaibornWolff",
+            "company_description": "MaibornWolff designs and develops individual, innovative and technically sophisticated software solutions. We implement systems for customers from different sectors who have different system landscapes. It is our objective to optimally analyze, identify and process our customers\u2019 requirements. We propose tailored solutions and develop either new systems or new processes that support and enhance their business \u2013 and all the while interconnecting their systems and allowing a smooth exchange of information.",
+            "company_logo": "https://www.tanitjobs.com/files/pictures/RS448_MaibornWolff-Logo-rgb-1.png",
+            "address": "Tunis, Tunisie"
+        }
+    },
+    {
+        "model": "jobpost.Recruiter",
+        "pk": 4,
+        "fields": {
+            "user": 5,
+            "company_name": "Force Management",
+            "company_description": "Cabinet Force Management sp\u00e9cialis\u00e9 dans le conseil en ressources humaines et le recrutement .",
+            "company_logo": "https://www.tanitjobs.com/files/pictures/logo_FM.png",
+            "address": "Les Berges du Lac, Tunis, Tunisie"
+        }
+    },
+    {
+        "model": "jobpost.Recruiter",
+        "pk": 5,
+        "fields": {
+            "user": 6,
+            "company_name": "Manwork",
+            "company_description": "Cabinet de recrutement.",
+            "company_logo": "https://www.tanitjobs.com/files/pictures/manwork_logo.png",
+            "address": "Tunis, Tunisie"
+        }
+    },
+    {
+        "model": "jobpost.Recruiter",
+        "pk": 6,
+        "fields": {
+            "user": 7,
+            "company_name": "Active contact",
+            "company_description": null,
+            "company_logo": "https://www.tanitjobs.com/files/pictures/logo20191.png",
+            "address": "Tunis, Tunisie"
+        }
+    },
+    {
+        "model": "jobpost.Recruiter",
+        "pk": 7,
+        "fields": {
+            "user": 8,
+            "company_name": "OUICODING",
+            "company_description": "OuiCoding Tunisie, est une filiale de OuiCoding France, sp\u00e9cialis\u00e9e dans les nouvelles technologies num\u00e9riques. Sa mission est la conception et le d\u00e9veloppement de logiciels et d\u2019applications suivant plusieurs demandes de clients fran\u00e7ais et europ\u00e9ens.",
+            "company_logo": "https://www.tanitjobs.com/files/pictures/logo_16.png",
+            "address": "Montplaisir, Tunis, Tunisie"
+        }
+    },
+    {
+        "model": "jobpost.Recruiter",
+        "pk": 8,
+        "fields": {
+            "user": 9,
+            "company_name": "Interfil",
+            "company_description": null,
+            "company_logo": "https://www.tanitjobs.com/files/pictures/logo_44.png",
+            "address": "Avenue de la Bourse, Tunis,Lac 2, Tunisie"
+        }
+    },
+    {
+        "model": "jobpost.Recruiter",
+        "pk": 9,
+        "fields": {
+            "user": 10,
+            "company_name": "Direct Phone Services",
+            "company_description": "Centre de Relation Client",
+            "company_logo": "https://www.tanitjobs.com/files/pictures/Direct-Phone-Services.png",
+            "address": "Avenue Habib Bourguiba, Tunis, Tunisie"
+        }
+    },
+    {
+        "model": "jobpost.Recruiter",
+        "pk": 10,
+        "fields": {
+            "user": 11,
+            "company_name": "Tunisie Syst\u00e8mes d Information",
+            "company_description": null,
+            "company_logo": "https://www.tanitjobs.com/files/pictures/logo_32.png",
+            "address": "38 Rue Kaboul, Ariana, Tunisie"
+        }
+    },
+    {
+        "model": "jobpost.Recruiter",
+        "pk": 11,
+        "fields": {
+            "user": 12,
+            "company_name": "\u00d4 TalenT",
+            "company_description": "\u00d4 TalenT est une\u00a0startup RH , offrant\u00a0des solutions de talent management et de d\u00e9veloppement de comp\u00e9tences, \u00e0 la fois innovantes, efficaces et align\u00e9es avec les strat\u00e9gies de\u00a0 d\u00e9veloppement de toute entreprise.\u00a0",
+            "company_logo": "https://www.tanitjobs.com/files/pictures/LOGO_4.png",
+            "address": "Centre Urbain Nord, Tunis, Tunisie"
+        }
+    },
+    {
+        "model": "jobpost.Recruiter",
+        "pk": 12,
+        "fields": {
+            "user": 14,
+            "company_name": "Getusion Tunisie",
+            "company_description": "\u00a0",
+            "company_logo": "https://www.tanitjobs.com/files/pictures/cb17b4_740089ca64e04ff49ad0caca0d9e1807~mv2_d_1299_1446_s_2.png",
+            "address": "Sfax, Tunisie"
+        }
+    },
+    {
+        "model": "jobpost.Recruiter",
+        "pk": 13,
+        "fields": {
+            "user": 16,
+            "company_name": "Electro Tunis",
+            "company_description": null,
+            "company_logo": null,
+            "address": "Mourouj 5, El Mourouj, Tunisie"
+        }
+    },
+    {
+        "model": "jobpost.Recruiter",
+        "pk": 14,
+        "fields": {
+            "user": 17,
+            "company_name": "sunshine elegance",
+            "company_description": null,
+            "company_logo": "https://www.tanitjobs.com/files/pictures/LOGO-SUNSHINE_ELEGANCE-JPEG.png",
+            "address": "K\u00e9libia, Tunisie"
+        }
+    },
+    {
+        "model": "jobpost.Recruiter",
+        "pk": 15,
+        "fields": {
+            "user": 18,
+            "company_name": "Oxilog",
+            "company_description": null,
+            "company_logo": null,
+            "address": "Le cercle des bureaux, Boulevard de la Terre, Tunis, Tunisie"
+        }
+    },
+    {
+        "model": "jobpost.Recruiter",
+        "pk": 16,
+        "fields": {
+            "user": 19,
+            "company_name": "G\u00e9n\u00e9rale Assistance",
+            "company_description": null,
+            "company_logo": null,
+            "address": "Mutuelleville, Tunis, Tunisie"
+        }
+    },
+    {
+        "model": "jobpost.Recruiter",
+        "pk": 17,
+        "fields": {
+            "user": 20,
+            "company_name": "Adecco",
+            "company_description": null,
+            "company_logo": null,
+            "address": "Montplaisir, Tunis, Tunisie"
+        }
+    },
+    {
+        "model": "jobpost.Recruiter",
+        "pk": 18,
+        "fields": {
+            "user": 21,
+            "company_name": "Cuisina",
+            "company_description": null,
+            "company_logo": null,
+            "address": "Tazarka, Tunisie"
+        }
+    },
+    {
+        "model": "jobpost.Recruiter",
+        "pk": 19,
+        "fields": {
+            "user": 22,
+            "company_name": "CINELEC",
+            "company_description": null,
+            "company_logo": null,
+            "address": "Montplaisir, Tunis, Tunisie"
+        }
+    },
+    {
+        "model": "jobpost.Recruiter",
+        "pk": 20,
+        "fields": {
+            "user": 23,
+            "company_name": "Euro-med consulting Institute",
+            "company_description": null,
+            "company_logo": null,
+            "address": "Ksibet El M\u00e9diouni, Monastir, Tunisie"
+        }
+    },
+    {
+        "model": "jobpost.Recruiter",
+        "pk": 21,
+        "fields": {
+            "user": 24,
+            "company_name": "Royal Kenz",
+            "company_description": null,
+            "company_logo": null,
+            "address": "Jinene Beach, Sousse, Hammam Sousse, Tunisie"
+        }
+    },
+    {
+        "model": "jobpost.Recruiter",
+        "pk": 22,
+        "fields": {
+            "user": 25,
+            "company_name": "ORANGE EL GHAZELA",
+            "company_description": null,
+            "company_logo": null,
+            "address": "El ghazela, Ariana, Tunisie"
+        }
+    },
+    {
+        "model": "jobpost.Recruiter",
+        "pk": 23,
+        "fields": {
+            "user": 27,
+            "company_name": "Primavera Travel & Events",
+            "company_description": null,
+            "company_logo": null,
+            "address": "Sfax, Tunisie"
+        }
+    },
+    {
+        "model": "jobpost.Recruiter",
+        "pk": 24,
+        "fields": {
+            "user": 28,
+            "company_name": "International Trading House",
+            "company_description": null,
+            "company_logo": null,
+            "address": "Sahloul, Sousse, Tunisie"
+        }
+    },
+    {
+        "model": "jobpost.Recruiter",
+        "pk": 25,
+        "fields": {
+            "user": 29,
+            "company_name": "Master Franchise",
+            "company_description": null,
+            "company_logo": null,
+            "address": "Centre Urbain Nord, Tunis, Tunisie"
+        }
+    },
+    {
+        "model": "jobpost.Recruiter",
+        "pk": 26,
+        "fields": {
+            "user": 30,
+            "company_name": "EBMA",
+            "company_description": null,
+            "company_logo": null,
+            "address": "Tunis, Tunisie"
+        }
+    },
+    {
+        "model": "jobpost.Recruiter",
+        "pk": 27,
+        "fields": {
+            "user": 31,
+            "company_name": "Whitoo",
+            "company_description": null,
+            "company_logo": null,
+            "address": "Tunis, Tunisie"
+        }
+    },
+    {
+        "model": "jobpost.Recruiter",
+        "pk": 28,
+        "fields": {
+            "user": 32,
+            "company_name": "SOCIETE STAFFING",
+            "company_description": null,
+            "company_logo": null,
+            "address": "Tunis, Tunisie"
+        }
+    },
+    {
+        "model": "jobpost.Recruiter",
+        "pk": 29,
+        "fields": {
+            "user": 33,
+            "company_name": "Moto Part Tunisia",
+            "company_description": null,
+            "company_logo": null,
+            "address": "Sousse, Tunisie"
+        }
+    },
+    {
+        "model": "jobpost.Recruiter",
+        "pk": 30,
+        "fields": {
+            "user": 34,
+            "company_name": "Infobia",
+            "company_description": null,
+            "company_logo": null,
+            "address": "Berges du Lac, Tunis, Tunisie"
+        }
+    },
+    {
+        "model": "jobpost.Recruiter",
+        "pk": 31,
+        "fields": {
+            "user": 36,
+            "company_name": "Kyalis-tech",
+            "company_description": "\u00a0",
+            "company_logo": null,
+            "address": "Tunis, Tunisie"
+        }
+    },
+    {
+        "model": "jobpost.Recruiter",
+        "pk": 32,
+        "fields": {
+            "user": 37,
+            "company_name": "CONCENTRIX",
+            "company_description": "Avec des marques parmi les plus grandes et les plus connues au monde comme clients de Concentrix, il y a de fortes chances que vous ayez d\u00e9j\u00e0 eu des contacts avec quelqu'un de Concentrix.",
+            "company_logo": "https://www.tanitjobs.com/files/pictures/CNX_logo_Color.png",
+            "address": "La Charguia II, Tunis, Tunisie"
+        }
+    },
+    {
+        "model": "jobpost.Recruiter",
+        "pk": 33,
+        "fields": {
+            "user": 39,
+            "company_name": "Decade",
+            "company_description": null,
+            "company_logo": "https://www.tanitjobs.com/files/pictures/DECADE_-_Texte_-_Fond_Blanc_-_900.png",
+            "address": "Tunis, Tunisie"
+        }
+    },
+    {
+        "model": "jobpost.JobPost",
+        "pk": 1,
+        "fields": {
+            "recruiter": 1,
+            "post_url": "https://www.tanitjobs.com/job/554297/un-une-charg\u00e9-du-syst\u00e8me-de-management-qualit\u00e9-iso9001-v2015/?backPage=&searchID=1560198308.1127",
+            "job_title": "Un/une Charg\u00e9 du Syst\u00e8me de Management Qualit\u00e9 ISO9001 (V2015)",
+            "job_description": "IBS Tunisie recrute un/une Charg\u00e9 du Syst\u00e8me de Management Qualit\u00e9 et ce pour assurer la p\u00e9rennit\u00e9 du SMQ et de la certification ISO9001\u00a0\r\nMissions:\r\n\u00b7\u00a0 Veiller \u00e0 la p\u00e9rennit\u00e9 du SMQ en s\u2019assurant que le syst\u00e8me de management de la qualit\u00e9 est conforme aux exigences de la Norme internationale.\r\n\u00b7\u00a0 V\u00e9rifier la conformit\u00e9 et l'efficience du SMQ (Syst\u00e8me de Management de la Qualit\u00e9)\r\n\u00b7\u00a0 G\u00e9rer et actualiser la documentation Qualit\u00e9 (manuel Qualit\u00e9, proc\u00e9dures, fiches d'instruction\u2026)\r\n\u00b7\u00a0 S\u2019assurer que, lorsque des modifications du syst\u00e8me de management de la qualit\u00e9 sont planifi\u00e9es et mises en \u0153uvre, l\u2019int\u00e9grit\u00e9 du syst\u00e8me de management de la qualit\u00e9 est maintenue.\r\n\u00b7\u00a0 Pr\u00e9parer et organiser les audits \u00e0 blanc et de certification des organismes de contr\u00f4le\r\n\u00b7\u00a0 Participer aux audits internes avec les responsables des services \u00e0 auditer\r\n\u00b7\u00a0 Sensibiliser le personnel aux objectifs et \u00e0 la politique qualit\u00e9.\r\n\u00b7\u00a0 Animer les revues de processus.\r\n\u00b7\u00a0 \u00catre l\u2019interlocuteur direct des organismes de certification.\r\n\u00b7\u00a0 Pr\u00e9parer les bilans des actions d\u2019am\u00e9liorations, des actions correctives, des actions pr\u00e9ventives, des audits, des r\u00e9clamations client et des revues de processus.\r\n\u00b7\u00a0 Effectuer le reporting de son activit\u00e9\r\nProfil recherch\u00e9:\r\n-Dipl\u00f4m\u00e9 de l'enseignement sup\u00e9rieur et de formation initiale ou professionnelle dans le domaine du management de la qualit\u00e9 et des audits internes\r\n-Connaissance exig\u00e9e de la Norme ISO9001\r\n-Exp\u00e9rience minimum d'une ann\u00e9e en management de la qualit\u00e9 en centre d'appel\r\n-Avoir une analyse prospective\r\n-Avoir une m\u00e9thodologie d'audit Qualit\u00e9\r\n-Capacit\u00e9 \u00e0 alerter sur les anomalies, les dysfonctionnements et les risques\r\n-Analyser et r\u00e9aliser un diagnostic de la situation rencontr\u00e9e\r\n-Capacit\u00e9 \u00e0 piloter un projet\r\n-Qualifier et formuler une expression de besoin aux parties int\u00e9ress\u00e9es\r\nAvantages du poste :\r\n\u2013 Un salaire fixe selon profil\u2013 Un contrat CDI\u2013 Titularisation au bout de 6 mois\u2013 Un cadre de travail stable et agr\u00e9able",
+            "job_requirements": "20/06/2019",
+            "job_type": "CDI",
+            "location": "Les Berges du Lac, Tunis, Tunisie",
+            "publication_date": "21/05/2019",
+            "expiration_date": null,
+            "category_set": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "jobpost.JobPost",
+        "pk": 2,
+        "fields": {
+            "recruiter": 2,
+            "post_url": "https://www.tanitjobs.com/job/543377/t\u00e9l\u00e9-conseillers-assurance-auto-ou-sant\u00e9/?backPage=&searchID=1560198308.1127",
+            "job_title": "T\u00e9l\u00e9-conseillers Assurance Auto ou Sant\u00e9",
+            "job_description": "ECG PEREIRE Assurances groupe norm\u00e9 ISO 9001-2015, est implant\u00e9 en Tunisie\u00a0 en France, Maroc, Alg\u00e9rie et \u00e0 Dakar avec plus de 12 ans d\u2019existence en Tunisie et de plus de 24 ans d\u2019existence sur le march\u00e9 fran\u00e7ais, il continue sa strat\u00e9gie de d\u00e9veloppement et recrute de nouveaux collaborateurs :\r\nPoste :\r\n\u2022\u00a0 Vous commercialisez nos produits d\u2019assurance aupr\u00e8s d\u2019une client\u00e8le de particuliers fran\u00e7ais.\r\n\u2022\u00a0 Vous \u00eates responsable du suivi d\u2019un portefeuille prospect que vous devez d\u00e9velopper et fid\u00e9liser en vous appuyant sur un logiciel performant.\r\n\u2022\u00a0 A ce titre, vos principales missions s\u2019articuleront autour des axes suivants :\r\n\u2022 D\u00e9tecter les besoins de vos clients et les conseiller\r\n\u2022\u00a0 Proposer \u00e0 vos clients et/ou prospects les solutions adapt\u00e9es \u00e0 leurs besoins.\r\n\u2022\u00a0 Promouvoir les produits et services de la soci\u00e9t\u00e9 aupr\u00e8s de vos clients.\r\n\u2022\u00a0 Veiller \u00e0 atteindre les objectifs qualitatifs et quantitatifs fix\u00e9s par la direction.\r\n\u2022\u00a0\u00a0Assurer la remont\u00e9e d\u2019information aupr\u00e8s de votre responsable hi\u00e9rarchique.\r\nProfil :\r\n-\u00a0 Vous justifiez d\u2019une exp\u00e9rience de minimum 1 an en t\u00e9l\u00e9vente \u00ab Emission d\u2019appel \u00bb ou en vente de produit d\u2019assurance.\r\n-\u00a0 Votre capacit\u00e9 d\u2019\u00e9coute et de dynamisme, de rigueur et d\u2019organisation, font de vous un(e) candidat(e) \u00e0 potentiel.\r\n-\u00a0 Vous aimez travailler en \u00e9quipe pour unir vos talents afin d\u2019optimiser la satisfaction des adh\u00e9rents.\r\n-\u00a0 Votre ma\u00eetrise de la langue Fran\u00e7aise et votre qualit\u00e9 de discours irr\u00e9prochable font de vous un(e) vrai(e) professionnel(le).\r\nN\u2019attendez pas et soyez le premier \u00e0 postuler pour le poste qui vous permettra d\u2019apprendre un m\u00e9tier et d\u00e9velopper une carri\u00e8re \u00e0 l\u2019\u00e9chelle national et/ou international\r\nAvantages sociaux :\r\n-\u00a0 Contrat en CDI\r\n-\u00a0 Formation Initiale r\u00e9mun\u00e9r\u00e9e d\u00e8s le premier jour\r\n-\u00a0 Ticket restaurant\r\n-\u00a0 Evolution garantie\r\n-\u00a0 Cadre de travail tr\u00e8s agr\u00e9able.\r\nAmplitude horaire\u00a0:\r\n\u2013 Horaire administratif (Week-end Off)\r\n\r\nSalaire, commissions et primes:\r\n-\u00a0 1200 Dt en plus des commissions d\u00e9plafonn\u00e9es permettant de tripler votre salaire\r\n-\u00a0 Prime de bienvenue de 300DTN pour les exp\u00e9riment\u00e9s en t\u00e9l\u00e9vente des contrats d\u2019assurances\r\n-\u00a0 Prime de bienvenue de 100DTN pour les exp\u00e9riment\u00e9s en t\u00e9l\u00e9vente \u00ab Emission d\u2019appel \u00bb\r\n\r\nVos comp\u00e9tences nous int\u00e9ressent !\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u00a0\r\nExprimez vos talents au sein d\u2019un groupe engag\u00e9 et international !\r\n\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0Rejoignez nous\u00a0!\u00a0\r\n\u00b7\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u00a0\u00a0 \u00a0T\u00e9l\u00e9phone\u00a0:\u00a058 52 71 32 / 71782314",
+            "job_requirements": "11/04/2020",
+            "job_type": "CDI",
+            "location": "Tunis, Tunisie",
+            "publication_date": "11/04/2019",
+            "expiration_date": null,
+            "category_set": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "jobpost.JobPost",
+        "pk": 3,
+        "fields": {
+            "recruiter": 3,
+            "post_url": "https://www.tanitjobs.com/job/508344/administrateur-principal-h-f-microsoft-cloud-in-tunis/?backPage=&searchID=1560198308.1127",
+            "job_title": "Administrateur principal (H/F) - Microsoft Cloud in Tunis",
+            "job_description": "Administrateur principal (H/F) - Microsoft Cloud in Tunis\r\nFaites l'exp\u00e9rience de l'infrastructure technique ! Le d\u00e9partement \"Infrastructure technique\" exploite l'environnement informatique chez et pour MaibornWolff. Notre \u00e9quipe de sp\u00e9cialistes con\u00e7oit et exploite activement cette infrastructure. Notre organisation agile utilisant le Kanban nous permet de travailler avec des technologies de pointe et de continuer \u00e0 soutenir des processus all\u00e9g\u00e9s. Avec nous, vous apprenez chaque jour quelque chose de nouveau. Vous vous d\u00e9veloppez personnellement et professionnellement - et restez toujours vous-m\u00eame. Nous sommes une \u00e9quipe color\u00e9e et c'est exactement ce que nous voulons rester. Il ne s'agit pas d'\u00eatre un g\u00e9nie. Nous recherchons plut\u00f4t des penseurs lat\u00e9raux cr\u00e9atifs et des questionneurs constructifs avec intuition et sensibilit\u00e9. Ce qui compte pour nous, ce sont les gens qui travaillent passionn\u00e9ment pour la r\u00e9ussite d'un projet. MaibornWolff con\u00e7oit et d\u00e9veloppe des solutions logicielles individuelles, innovantes et techniquement sophistiqu\u00e9es. Nous impl\u00e9mentons des syst\u00e8mes pour des clients de diff\u00e9rents secteurs qui ont des paysages de syst\u00e8mes diff\u00e9rents. Notre objectif est d'analyser, d'identifier et de traiter de mani\u00e8re optimale les besoins de nos clients. Nous proposons des solutions sur mesure et d\u00e9veloppons soit de nouveaux syst\u00e8mes, soit de nouveaux processus qui soutiennent et am\u00e9liorent leur activit\u00e9, tout en interconnectant leurs syst\u00e8mes et en permettant un \u00e9change d'informations fluide.D\u00e9velopper avec nous l'infrastructure informatique du futur.",
+            "job_requirements": "Vos t\u00e2ches\r\n\r\nVous fa\u00e7onnerez la conception, la planification et l'expansion de notre infrastructure informatique en pleine croissance, en vous concentrant particuli\u00e8rement sur Microsoft Office 365 et les services associ\u00e9s, tels que Teams et Skype for Business.\r\nVous serez per\u00e7u comme un expert dans le monde des applications et services Office 365. Vous montrez des solutions lorsque nos ing\u00e9nieurs en logiciel et nos conseillers en informatique ont des questions sur la technologie, les processus et la manipulation.\r\n\u00a0Vous aimez parler aux gens et jeter des ponts entre les employ\u00e9s, les clients et la technologie.\r\n\u00a0La croissance de notre entreprise nous pr\u00e9sente constamment de nouvelles t\u00e2ches et de nouveaux projets que vous accompagnez, fa\u00e7onnez et dont vous \u00eates responsable.\r\n\r\nVotre profil\r\n\r\nVous avez termin\u00e9 avec succ\u00e8s votre formation professionnelle en informatique ou vos \u00e9tudes et avez au moins 5 ans d'exp\u00e9rience professionnelle.\r\nVous vous sentez \u00e0 l'aise avec Office 365, AzureAD, Exchange 2016, Exchange Online, Skype pour les entreprises, SharePoint Online et MS Teams.\r\nDepuis des ann\u00e9es, vous utilisez les services MS Active Directory. Les serveurs Windows avec leurs r\u00f4les et services ont \u00e9t\u00e9 la base de vos paysages informatiques.\r\nVous aimez structurer, cr\u00e9er des concepts et automatiser des t\u00e2ches r\u00e9currentes. PowerShell, les outils d'automatisation et de traitement par lots sont vos outils de travail.\r\nVous avez de pr\u00e9f\u00e9rence de bonnes connaissances en allemand et d'excellentes connaissances en anglais.\r\n\r\nSi vous souhaitez de plus amples informations concernant nos projets \u00e0 Tunis, vous pouvez les trouver sur https://www.maibornwolff.de/en/tunisia.\r\n\u00c7a vous ressemble ? Veuillez soumettre votre candidature ici et inclure les documents suivants:\r\n\r\nCurriculum vitae\r\nLettre de motivation\r\nDipl\u00f4mes\r\nR\u00e9f\u00e9rences\r\nCertificats\r\n",
+            "job_type": "CDI",
+            "location": "Tunis, Tunisie",
+            "publication_date": "23/05/2019",
+            "expiration_date": "22/06/2019",
+            "category_set": [
+                2,
+                3
+            ]
+        }
+    },
+    {
+        "model": "jobpost.JobPost",
+        "pk": 4,
+        "fields": {
+            "recruiter": 3,
+            "post_url": "https://www.tanitjobs.com/job/448718/d\u00e9veloppeur-java-iot-h-f-tunis/?backPage=&searchID=1560198308.1127",
+            "job_title": "D\u00e9veloppeur Java/ IoT (H/F) - Tunis",
+            "job_description": "Venez nous voir et plongez-vous dans un nouveau monde. D\u00e9veloppez des machines \u00e0 laver qui peuvent \u00eatre contr\u00f4l\u00e9es confortablement depuis le canap\u00e9, des pots de fleurs qui s'allument en rouge lorsqu'ils ont besoin d'eau, des drones qui cherchent la prochaine place de stationnement gratuite, des voitures qui parlent aux feux de circulation pour vous aider \u00e0 aller plus vite. \u00c7a ressemble \u00e0 quelque chose de la science-fiction ? Pas \u00e0 nous !MaibornWolff con\u00e7oit et d\u00e9veloppe des solutions logicielles individuelles, innovantes et techniquement sophistiqu\u00e9es. Nous impl\u00e9mentons des syst\u00e8mes pour des clients de diff\u00e9rents secteurs qui ont des paysages de syst\u00e8mes diff\u00e9rents. Notre objectif est d'analyser, d'identifier et de traiter de mani\u00e8re optimale les besoins de nos clients. Nous proposons des solutions sur mesure et d\u00e9veloppons soit de nouveaux syst\u00e8mes, soit de nouveaux processus qui soutiennent et am\u00e9liorent leur activit\u00e9, tout en interconnectant leurs syst\u00e8mes et en permettant un \u00e9change d'informations fluide.Nous faisons en sorte que les choses intelligentes r\u00e9ussissent - et vous pouvez en faire partie !Nous vous recherchons, \u00e0 la prochaine date possible, en tant\u00a0que D\u00e9veloppeur Java/ IoT (H/F) pour notre nouveau bureau \u00e0 Tunis.\u00a0",
+            "job_requirements": "Votre passion\r\n\r\nVotre c\u0153ur bat plus vite quand vous pensez \u00e0 l'\u00e9lectronique et au g\u00e9nie logiciel dans le nuage.\r\nVous aimez mettre en valeur les objets du quotidien \u00e0 l'aide de logiciels, les mettre en r\u00e9seau intelligemment et leur ouvrir de toutes nouvelles possibilit\u00e9s.\r\nVous \u00eates un amateur (hautement) passionn\u00e9 et vous aimez prototyper et mettre en \u0153uvre des preuves de concept.\r\n\r\nVotre m\u00e9tier\r\n\r\nImpl\u00e9mentation de solutions logicielles dans des \u00e9quipes agiles\r\nPlanification, conception, mise en \u0153uvre et test des diff\u00e9rents modules du projet\r\nTravailler avec les technologies modernes pour mettre en \u0153uvre des solutions innovantes\r\nAide \u00e0 la d\u00e9finition des architectures logicielles\r\nResponsable de la qualit\u00e9 du code\r\n\r\nVotre profil\r\n\r\nVous \u00eates titulaire d'un baccalaur\u00e9at ou d'une ma\u00eetrise, ou d'un dipl\u00f4me \u00e9quivalent, avec de bonnes notes en informatique, en technologie de l'information ou dans un domaine connexe.\r\n2 \u00e0 5 ans d'exp\u00e9rience dans le d\u00e9veloppement backend, de pr\u00e9f\u00e9rence avec des API REST et des microservices.\r\nExcellentes comp\u00e9tences en Java SE/EE\r\nExp\u00e9rience en d\u00e9veloppement web avec Angular et Node.Js.\r\nC'est un plus si vous avez de l'exp\u00e9rience avec Docker, GitLab-CI, PostgreSQL, Hibernate, Springt Boot, NoSQL\r\nTr\u00e8s bonne/excellente ma\u00eetrise de l'anglais et de pr\u00e9f\u00e9rence bonne ma\u00eetrise de l'allemand \u00e0 l'oral et \u00e0 l'\u00e9crit\r\nEsprit d'\u00e9quipe qui s'adapte facilement aux autres et qui peut aussi bien travailler avec peu de supervision\r\nVous \u00eates curieux et vous vous familiarisez rapidement avec les nouvelles technologies\r\n\r\n\u00a0\r\nSi vous souhaitez de plus amples informations concernant nos projets \u00e0 Tunis, vous pouvez les trouver sur https://www.maibornwolff.de/en/tunisia. \u00c7a vous ressemble? Veuillez soumettre votre candidature ici et inclure les documents suivants:\r\n\r\nCurriculum vitae\r\nLettre de motivation\r\nDipl\u00f4mes\r\nR\u00e9f\u00e9rences\r\nCertificats\r\n",
+            "job_type": "CDI",
+            "location": "Tunis, Tunisie",
+            "publication_date": "23/05/2019",
+            "expiration_date": "22/06/2019",
+            "category_set": [
+                2,
+                3
+            ]
+        }
+    },
+    {
+        "model": "jobpost.JobPost",
+        "pk": 5,
+        "fields": {
+            "recruiter": 4,
+            "post_url": "https://www.tanitjobs.com/job/558330/1-responsable-supply-chain/?backPage=&searchID=1560198308.1127",
+            "job_title": "1 Responsable  Supply Chain",
+            "job_description": "Notre client est un groupe international, financi\u00e8rement solide et ind\u00e9pendant, collaborant avec une multitude de compagnies op\u00e9rant dans les domaines de l\u2019Industrie, secteur Public, Construction de plateformes p\u00e9troli\u00e8res\u2026\r\nCe groupe est aujourd\u2019hui mondialement reconnu pour ses solutions innovantes, ainsi que pour la fiabilit\u00e9 et l\u2019efficacit\u00e9 de ses prestations partout dans le Monde.\r\nDans le cadre de la forte croissance de ses activit\u00e9s en Tunisie, notre client est actuellement \u00e0 la recherche d\u2019un\u00a0:\r\n\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 1 RESPONSABLE SUPPLY CHAIN \u00a0\r\nVotre mission\u00a0: \r\n-Contr\u00f4ler les flux physiques et les flux d\u2019information internes et externes.\r\n-Mesurer les performances de la cha\u00eene logistique et y apporter les actions correctives n\u00e9cessaires en cas de besoin.\r\n-Assurer la qualit\u00e9 des livraisons client, ainsi que le plan de livraison fournisseurs en termes de d\u00e9lais, co\u00fbts...\r\n-Assurer la fiabilit\u00e9 du syst\u00e8me d\u2019information et d\u00e9finir les param\u00e8tres logistiques.\r\n-Soutenir les activit\u00e9s du r\u00e9seau de la cha\u00eene d\u2019approvisionnement et d\u00e9ployer les strat\u00e9gies d\u2019efficience n\u00e9cessaires.\r\n-Assurer l\u2019interface de la cha\u00eene d\u2019approvisionnement entre clients et fournisseurs.\r\n-Diriger l\u2019\u00e9quipe supply chain de l\u2019usine sur la base des valeurs de la soci\u00e9t\u00e9.\r\n\u00a0\r\nVotre profil \r\nDe formation Bac+4/5, vous justifiez d\u2019un minimum de 10 ans d\u2019exp\u00e9rience en environnement industriel (id\u00e9alement dans le domaine du c\u00e2blage \u00e9lectrique).\r\nVous disposez d\u2019une ma\u00eetrise parfaite de tous les outils de Lean manufacturing\u00a0: 5S, Kaizen, Hoshin, SMED, etc\u2026\r\nFort d\u2019une exp\u00e9rience manag\u00e9riale confirm\u00e9e, vous \u00eates tout \u00e0 fait capable de piloter et manager plusieurs \u00e9quipes en local ou en transverse.\r\nBien entendu, vous maitrisez parfaitement le Fran\u00e7ais et l\u2019Anglais, \u00e0 l\u2019oral comme \u00e0 l\u2019\u00e9crit.\r\nNous vous offrons\u00a0: \r\n- Un contrat CDI et un environnement de travail collaboratif.\r\n- Un salaire attractif et des avantages en nature\u00a0: prime, carte essence, bonus sur objectif\u2026 \u00a0\r\n- Un plan de carri\u00e8re au m\u00e9rite qui valorise les hautes comp\u00e9tences.\r\nPour postuler, merci de nous adresser votre CV en mentionnant la r\u00e9f\u00e9rence RSCT \u00e0: recrutement@groupe-fm.com",
+            "job_requirements": "07/07/2019",
+            "job_type": "CDI",
+            "location": "Les Berges du Lac, Tunis, Tunisie",
+            "publication_date": "07/06/2019",
+            "expiration_date": null,
+            "category_set": [
+                4,
+                5,
+                6,
+                7,
+                8
+            ]
+        }
+    },
+    {
+        "model": "jobpost.JobPost",
+        "pk": 6,
+        "fields": {
+            "recruiter": 5,
+            "post_url": "https://www.tanitjobs.com/job/511415/d\u00e9veloppeurs-java-j2ee-h-f/?backPage=&searchID=1560198308.1127",
+            "job_title": "D\u00e9veloppeurs Java /J2EE (H/F)",
+            "job_description": "La soci\u00e9t\u00e9 Manwork expert en recrutement et placement du personnel recrute pour l'un de ses clients \u00a0bas\u00e9e \u00e0 Munich/Allemagne et poss\u00e8de deux succursales en Suisse et en Tunisie, leader dans le domaine de la transformation digitale, des d\u00e9veloppeurs java/J2EE.",
+            "job_requirements": "Missions\u00a0du poste\r\n\u00a0Les d\u00e9veloppeurs Full Stack vont travailler pour le compte des multinationales Allemandes op\u00e9rant dans plusieurs secteurs.\r\n Activit\u00e9s principales :\r\n\r\nD\u00e9veloppement de syst\u00e8mes logiciels utilisant les technologies actuelles.\r\n\r\n\r\nSp\u00e9cification des processus m\u00e9tier et sp\u00e9cification de l'architecture syst\u00e8me.\r\n\r\n\r\nAnalyse et conception avec les m\u00e9thodes et outils actuels.\r\n\r\n\r\nAssurer la qualit\u00e9 du logiciel.\r\n\r\nProfil recherch\u00e9\r\n- Avoir une formation : Bac+5 ou plus.\r\n-Poss\u00e8de au moins\u00a0 3 ans d'exp\u00e9rience professionnelle.\r\n-Tr\u00e8s bonne ma\u00eetrise de l\u2019environnement Java EE.\r\nComp\u00e9tences requises\r\nUne exp\u00e9rience approfondie dans le traitement des technologies suivantes sera appr\u00e9ci\u00e9e:\r\n\r\nJS-Frameworks (par example JQuery, AngularJS, Bootstrap).\r\nSpring, Hibernate, JAVA, Angular, JQuery, bootstrap, Maven, Sonar, Jenkins.\r\nTechnologie Mobile: Android, iOS, Phonegap, Ionic.\r\nBases de donn\u00e9es relationnelles (par exemple Oracle, MySQL, PostgreSQL).\r\nM\u00e9thodologie AGILE Scrum.\r\n\r\nAtouts recherch\u00e9s : \r\n\r\nAvoir le sens de communication et d\u2019\u00e9coute.\r\nSens d\u2019analyse.\r\nBon engagement.\r\nResponsable, rigoureux et disciplin\u00e9.\r\nEtre fort en proposition d\u2019am\u00e9liorations.\r\nPoss\u00e8de un esprit d'initiative.\r\n\r\nNous vous offrons\u00a0:\r\n\r\n\u00a0La participation dans des projets de grandes envergures destin\u00e9es au\u00a0 march\u00e9 Europ\u00e9en.\r\n\u00a0 R\u00e9f\u00e9rences multinationales (BMW, AUDIT, Banques,\u2026).\r\n\u00a0L\u2019int\u00e9gration d\u2019une \u00e9quipe jeune et\u00a0 motiv\u00e9e.\r\n\u00a0Carri\u00e8re et stabilit\u00e9.\r\n\u00a0Une r\u00e9mun\u00e9ration motivante.\r\nTravail organis\u00e9 avec les derni\u00e8res m\u00e9thodologies.\r\n\u00a0Tickets restaurant.\r\n\u00a0Primes/projets.\r\n\u00a0Convention de sport: Notre partenaire CALIFORNIA GYM.\r\n\r\nPoste \u00e0 pourvoir en CDI.\r\nMerci d\u2019envoyer votre CV par e-mail\u00a0:\r\nrecrute@manwork.tn en indiquant l\u2019intitul\u00e9 du poste.\r\nEt inscrivez-vous sur notre site www.manwork.tn\r\n\u00a0",
+            "job_type": "CDI",
+            "location": "Tunis, Tunisie",
+            "publication_date": "04/01/2019",
+            "expiration_date": "29/12/2019",
+            "category_set": [
+                2
+            ]
+        }
+    },
+    {
+        "model": "jobpost.JobPost",
+        "pk": 7,
+        "fields": {
+            "recruiter": 6,
+            "post_url": "https://www.tanitjobs.com/job/553453/02-team-leader-bilingue-fran\u00e7ais-anglais/?backPage=&searchID=1560198308.1127",
+            "job_title": "02 Team Leader Bilingue Fran\u00e7ais/Anglais",
+            "job_description": "Avec 12 ans d'existence,\u00a0225 collaborateurs et une certification ISO 9001, la soci\u00e9t\u00e9\u00a0ACTIVE CONTACT poursuit sa strat\u00e9gie de d\u00e9veloppement en s\u2019appuyant sur son positionnement haut de gamme et qualitatif.\u00a0\r\nDans le cadre de cette croissance, nous recrutons :\r\n02 Team Leader bilingue\r\nLe Team Leader anime et encadre une \u00e9quipe de charg\u00e9s de client\u00e8le.\r\nMission\u00a0:\r\nAssure l\u2019animation, l\u2019implication et le d\u00e9veloppement des comp\u00e9tences de ses collaborateurs.\r\nContribue au bon climat social, favorise la coh\u00e9sion d\u2019\u00e9quipe.\r\nG\u00e8re les conflits et transmet les informations.\r\nAnime des r\u00e9unions d\u2019\u00e9quipe et fait les comptes rendus.\r\nAccompagne ponctuellement les collaborateurs de son \u00e9quipe dans l\u2019utilisation des outils de l\u2019activit\u00e9.",
+            "job_requirements": "Profil\u00a0:\r\n\u00catre disponible shift nuit\r\nMinimum 1 an d\u2019exp\u00e9rience professionnelle en tant que Team Leader.\r\nMa\u00eetrise obligatoire du fran\u00e7ais et de l\u2019anglais.\r\nMa\u00eetriser les outils & proc\u00e9dures\r\nAvantages\u00a0:\r\nUn package salariale \u00e0 partir de 1.500TND net/mois\r\nPrime sur objectif mensuel\r\nTransport assur\u00e9e par taxi\r\nTicket restaurant\r\nCompl\u00e9mentaire sant\u00e9\r\nPour postuler il vous suffit de nous contacter au\u00a029 300 789",
+            "job_type": "CDI",
+            "location": "Tunis, Tunisie",
+            "publication_date": "31/05/2019",
+            "expiration_date": "16/06/2019",
+            "category_set": [
+                1,
+                9,
+                10,
+                7
+            ]
+        }
+    },
+    {
+        "model": "jobpost.JobPost",
+        "pk": 8,
+        "fields": {
+            "recruiter": 7,
+            "post_url": "https://www.tanitjobs.com/job/557752/d\u00e9veloppeur-java-j2ee-anglophone-3000-dt-net/?backPage=&searchID=1560198308.1127",
+            "job_title": "D\u00e9veloppeur JAVA/J2EE Anglophone 3000 dt Net",
+            "job_description": "Ing\u00e9nieur avec 5 ans exp\u00e9riences dans le d\u00e9veloppement en JAVA/ JEE\u00a0;\r\nAvec un Salaire minimal de\u00a03000 DT\u00a0\r\nVous maitrisez\u00a0:\r\nLe framework Spring,\r\nJMS,\r\nORM (Hibernate),\r\nSQL (MySQL, PostgreSQL),\r\nGIT,\r\nEt vous avez des excellentes connaissances en Data Structure et Algorithms, ainsi qu\u2019un excellent niveau en Anglais.\r\nNOUS VOUS OFFRONS\r\n\r\nCDI\r\nUne formation aux softs skills offertes\r\nUne exp\u00e9rience entrepreneuriale unique\r\nUn environnement de travail exceptionnel\r\nUn abonnement annuel Netflix offert\r\nUne bonne r\u00e9mun\u00e9ration + des primes + Assurance maladie + Tickets restaurant\r\n\r\nPostulez\u00a0",
+            "job_requirements": "03/07/2019",
+            "job_type": "CDI",
+            "location": "Montplaisir, Tunis, Tunisie",
+            "publication_date": "03/06/2019",
+            "expiration_date": null,
+            "category_set": [
+                2
+            ]
+        }
+    },
+    {
+        "model": "jobpost.JobPost",
+        "pk": 9,
+        "fields": {
+            "recruiter": 8,
+            "post_url": "https://www.tanitjobs.com/job/444416/t\u00e9l\u00e9secr\u00e9taire-en-r\u00e9ception-d-appels/?backPage=&searchID=1560198308.1127",
+            "job_title": "T\u00e9l\u00e9secr\u00e9taire en R\u00e9ception d'Appels",
+            "job_description": "INTERFIL CALL CENTER, Situ\u00e9 au LAC II\r\nVous avez l\u2019exp\u00e9rience en t\u00e9l\u00e9phonieFran\u00e7ais parl\u00e9 \u00e9crit tr\u00e8s bon niveau\r\nPour accompagner la forte croissance de notre centre, nous recherchons:\r\nPlusieurs t\u00e9l\u00e9secr\u00e9taires Parc Jour ou Nuit\r\nPostes stables Temps plein \u00e0 pourvoir CDI :(40h, 35h, ou 32h, par semaine)\r\nFormation assur\u00e9e et r\u00e9mun\u00e9r\u00e9e, tr\u00e8s bonnes conditions de travail.Salaire motivant et \u00e9volutif:Salaire de base net 850.000 dinars+ Primes challenges variables+ Primes astreintes (si contrat nuits).Tickets restaurants 5 dinars.\r\nNous recrutons des t\u00e9l\u00e9secr\u00e9taires pour la gestion d'appels entrantsM\u00e9decins, Soci\u00e9t\u00e9s, Avocats....Chaque appel est diff\u00e9rent, pas d'ennui, ni de routine.",
+            "job_requirements": "Vos qualit\u00e9s :Sens du service,Sourire et amabilit\u00e9.Bonne \u00e9locutionAisance au clavier\r\nUn fran\u00e7ais parfait est attendu\u00a0\u00e0 l'oral et \u00e0 l'\u00e9crit\r\n\u00a0\r\nMerci d'envoyer vos candidatures \u00e0 :\u00a0recrutement@atoutcom.tn",
+            "job_type": "CDI",
+            "location": "Avenue de la Bourse, Tunis,Lac 2, Tunisie",
+            "publication_date": "30/11/2018",
+            "expiration_date": "11/10/2019",
+            "category_set": [
+                1,
+                3,
+                11
+            ]
+        }
+    },
+    {
+        "model": "jobpost.JobPost",
+        "pk": 10,
+        "fields": {
+            "recruiter": 9,
+            "post_url": "https://www.tanitjobs.com/job/536976/r\u00e9ception-d-appel-t\u00e9l\u00e9conseillers/?backPage=&searchID=1560198308.1127",
+            "job_title": "R\u00e9ception d'appel / t\u00e9l\u00e9conseillers",
+            "job_description": "DPS centre de relation client\u00a0situ\u00e9 en plein centre ville, recrute des t\u00e9l\u00e9conseillers pour la r\u00e9ception d'appel pour le compte d'un op\u00e9rateur t\u00e9l\u00e9phonique Fran\u00e7ais (Service Client)\r\n\u00a0\u00a0\u00a0\u00a0\u00a0 Nous garantissons :\r\n\r\nUne formation initiale pay\u00e9e\r\nUn salaire motivant + prime\r\nTickets restaurants 6 dt/ jour d\u00e8s la formation\r\nUne ambiance de travail conviviale et professionnelle\r\nLa possibilit\u00e9 d'\u00e9voluer en interne\r\n",
+            "job_requirements": "\r\nUn bon Fran\u00e7ais\r\nDisponibilit\u00e9\r\nUne premi\u00e8re exp\u00e9rience est souhaitable\r\n\r\nPostulez :\r\n\r\nSur place : 02 Rue Mohamed Ali Hammi - Tunis\r\nPar mail : amira.hlaoui@e-i.com\r\nSur le site : www.dpsjob.com\r\nPar t\u00e9l\u00e9phone : 71 120 066 / 71 120\u00a0063\r\n",
+            "job_type": "Temps plein",
+            "location": "Avenue Habib Bourguiba, Tunis, Tunisie",
+            "publication_date": "21/03/2019",
+            "expiration_date": "20/03/2020",
+            "category_set": [
+                1,
+                11
+            ]
+        }
+    },
+    {
+        "model": "jobpost.JobPost",
+        "pk": 11,
+        "fields": {
+            "recruiter": 10,
+            "post_url": "https://www.tanitjobs.com/job/552033/analyste-programmeur-net-c/?backPage=&searchID=1560198308.1127",
+            "job_title": "Analyste programmeur .NET/C#",
+            "job_description": "Vous interviendrez en rapport avec les exigences et le contexte du client :\r\n- Participation \u00e0 l'analyse - R\u00e9alisation des applications logicielles - R\u00e9alisation des tests - R\u00e9daction de documentation technique\r\nIssu(e) d'une formation minimum Bac+3 Informatique au minimum, vous disposez\u00a0d'une exp\u00e9rience sup\u00e9rieure \u00e0 1 an dans un poste similaire.\r\nVous ma\u00eetrisez l'environnement Microsoft :\u00a0ASP.NET (C#, VB.net), TFS, MVC, MVVM,\u00a0Angular JS, ASP.NET Core MVC,\u00a0Visual Studio,\u00a0SQLServer\r\nDot\u00e9(e) d'une bonne culture IT et driv\u00e9(e) par le d\u00e9fi technologique, vous \u00eates passionn\u00e9(e) par l'innovation et les \u00e9volutions IT.\r\nVos qualit\u00e9s relationnelles seront garantes de votre int\u00e9gration dans les \u00e9quipes.\r\nVous \u00eates curieux(se), rigoureux(se) et motiv\u00e9(e) et vous avez la volont\u00e9 d'apprendre et partager sur des projets \u00e0 forte valeur ajout\u00e9e\u00a0",
+            "job_requirements": "12/06/2019",
+            "job_type": "CDI",
+            "location": "38 Rue Kaboul, Ariana, Tunisie",
+            "publication_date": "13/05/2019",
+            "expiration_date": null,
+            "category_set": [
+                2
+            ]
+        }
+    },
+    {
+        "model": "jobpost.JobPost",
+        "pk": 12,
+        "fields": {
+            "recruiter": 11,
+            "post_url": "https://www.tanitjobs.com/job/558710/hr-country-manager/?backPage=&searchID=1560198308.1127",
+            "job_title": "HR Country Manager",
+            "job_description": "\r\n\u00d4 TalenT\u00ae Executive Search is a division form \u00d4 TalenT, A tunisia's based HR-Tech and consulting firm, synchronizing strategy and talent to drive superior performance for our clients. We are recruiting, on behalf of our partner a world Class leader in BPO and Customer CAre, the Following profile:\r\nHR Country Manager (Tunisia)\r\nJob Brief:\r\nWe are looking for a CountryHR Manager to oversee the recruiting, compensation and training of the division\u2019s employees.\r\nCountry HR Manager responsibilities include :\r\nSupervising local HR teams, implementing company policies and designing employees\u2019 compensation and benefits plans.\r\nTo be successful in this role, you should have a good knowledge of local labor regulations and experience with Human Resources Management\u00a0\r\nUltimately, you will ensure the company build and maintain a strong local and regional employer brand.\r\nResponsibilities\r\n\r\nIdentify short-term and long-term hiring needs\r\nSet performance standards and evaluate local HR teams\r\nDesign employees\u2019 compensation and benefits packages\r\nDefine onboarding procedures in alignment with\u00a0the company culture\r\nHelp organize employer branding activities (e.g. host a recruitment event)\r\nDetermine training plans per employee and department\r\nPrepare and manage division\u2019s budget\r\nTrack recruitment KPIs and suggest improvements, as needed\r\nDesign and implement company policies that comply with our business objectives\r\nEnsure all HR operations adhere to legal standards\r\nSupport staff and managers on day-to-day issues\r\nCoordinate with Cluster HR Manager to craft organization-wide strategies and objectives\r\n\r\n",
+            "job_requirements": "Requirements\r\n\r\nProven work experience as a Country/ Regional HR Manager or similar role within the BPO industry.\r\nUnderstanding of full cycle recruiting\r\nGood knowledge of local labor regulations\r\nHands-on experience with payroll systems and Human Resources Management Software\r\nExcellent verbal and written communication skills\r\nLeadership abilities\r\nBSc in Human Resources Management or relevant field\r\nExcellent English and French Written and Spoken Communication Skills\r\nan MBA in HR Management is suitable\u00a0\r\n\r\nWe are looking for extremly passionate and highly motivated senior profile , to join the adventure and bring a great value to the executive team based in Tunisia.\u00a0\r\nThis is a High Mamangeme,t position, the Salary package include: Salary / 12 Months, yearly Bonus up to 10% of the yearly gross salary, company car, insurance .....\r\nTo apply and get further information, use the following email: meriam.hamdi@otalent.com.tn\r\n",
+            "job_type": "CDI",
+            "location": "Centre Urbain Nord, Tunis, Tunisie",
+            "publication_date": "09/06/2019",
+            "expiration_date": "08/07/2019",
+            "category_set": [
+                2,
+                1,
+                3,
+                9
+            ]
+        }
+    },
+    {
+        "model": "jobpost.JobPost",
+        "pk": 13,
+        "fields": {
+            "recruiter": 1,
+            "post_url": "https://www.tanitjobs.com/job/552176/nous-recrutons-des-commerciaux-junior-et-senior-en-t\u00e9l\u00e9vente/?backPage=&searchID=1560198308.1127",
+            "job_title": "Nous recrutons des commerciaux Junior et Senior en T\u00e9l\u00e9vente",
+            "job_description": "More Than A Job\u2026 A Lifestyle\u00a0!!!\r\n\u00a0Pour sa plateforme et dans le but de renforcer ses \u00e9quipes le\u00a0GROUPE IBS\u00a0recrute\u00a0des Conseillers Commerciaux Juniors & Seniors sp\u00e9cialis\u00e9s dans\u00a0la vente\u00a0et la\u00a0gestion de portefeuille client dans le B2B.\r\nSous la direction commerciale du\u00a0Leader Fran\u00e7ais\u00a0de la convergence des t\u00e9l\u00e9coms\u00a0(T\u00e9l\u00e9phonie Fixe et Mobile, Internet, Fibre...)\r\nVous serez garant de la strat\u00e9gie et politique interne, vous serez responsable de vos contacts et construirez votre propre portefeuille client.\r\nProfils :\r\n-Vous\u00a0maitrisez parfaitement la langue fran\u00e7aise, avez une bonne \u00e9locution et la capacit\u00e9 \u00e0 comprendre et assimiler facilement le client fran\u00e7ais pour r\u00e9pondre \u00e0 ses besoins.\r\n-Nous sommes \u00e0 la recherche d\u2019un commercial Senior et Junior (selon l\u2019exp\u00e9rience) en t\u00e9l\u00e9vente B to B, dot\u00e9 d\u2019un bon temp\u00e9rament commercial\r\n-Dispose d\u2019une exp\u00e9rience r\u00e9ussie d\u2019au moins 1 \u00e0 2 ans en tant que Junior et 2 \u00e0 4 ans en tant que Senior dans un m\u00eame centre d\u2019appel\r\n-Ambitieux et motiv\u00e9 par les challenges, vous disposez de r\u00e9elles capacit\u00e9s relationnelles et d\u2019\u00e9coute active\r\n-Vous maitrisez les techniques de vente \u00e0 distance\r\n-Vous \u00eates reconnus pour votre sens de la n\u00e9gociation et votre aisance commerciale\r\n-Rigueur, r\u00e9activit\u00e9 et pers\u00e9v\u00e9rance sont des qualit\u00e9s n\u00e9cessaires pour r\u00e9ussir ce poste\r\nNous vous offrons\u00a0:\r\n\r\n\r\nCommercial Senior\u00a0: Un fixe de\u00a01500\u00a0TND\u00a0en NET\r\n\r\n\r\nCommercial Junior\u00a0: Un fixe de\u00a01300\u00a0TND\u00a0en NET\r\n\r\n\r\nUne formation\u00a0r\u00e9mun\u00e9r\u00e9e.\r\n\r\n\r\nPrimes et variables\u00a0non limit\u00e9s.\r\n\r\n\r\nTickets restaurant \u00e0 hauteur de\u00a0100\u00a0TND\u00a0(Tickets de 5 TND)\r\n\r\n\r\nAssurance Groupe\r\n\r\n\r\nNous vous assurons le transport aller/retour\u00a0(TAXI)\r\n\r\n\r\nHoraires de travail : 8h-12/13h-17h\u00a0du Lundi au Vendredi\r\n\r\n\r\nUn\u00a0CDI avec titularisation apr\u00e8s une p\u00e9riode d\u2019essai de 3 mois \u00e0 Plein-Temps\u00a0aux horaires de bureaux au Berges du Lac \u00e0 Tunis\r\nDes\u00a0challenges\u00a0trimestriels et des\u00a0bonus\u00a0r\u00e9currents\u00a0(Voyage Turquie, Malaisie, Smartphones, \u00e9lectrom\u00e9nager\u2026) y compris une prime de\u00a010\u00a0000 dt\u00a0cash\u00a0pour le meilleur agent de l\u2019ann\u00e9e 2019\u00a0!!!\r\n\u00a0 \"Au plaisir de vous compter parmi nous dans les prochains jours \"\r\n\r\n\r\n\u00a0\r\n\u00a0",
+            "job_requirements": "13/06/2019",
+            "job_type": "CDI",
+            "location": "Les Berges du Lac, Tunis, Tunisie",
+            "publication_date": "14/05/2019",
+            "expiration_date": null,
+            "category_set": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "jobpost.JobPost",
+        "pk": 14,
+        "fields": {
+            "recruiter": 12,
+            "post_url": "https://www.tanitjobs.com/job/558277/poste-r\u00e9ceptionniste-\u00e0-l-agence-sfax/?backPage=&searchID=1560198308.1127",
+            "job_title": "Poste r\u00e9ceptionniste \u00e0 l'agence Sfax",
+            "job_description": "Assurer un accueil t\u00e9l\u00e9phonique afin de renseigner les clients d\u00e9sireux Traitement des courriers, des dossiers et des documents (enregistrement, saisie\u2026) Saisie comptable et facturation Classement et archivage des documents comptables, financi\u00e8res et commerciales (\u00e9lectroniques et papiers) Gestion de la logistique et des fournitures du service et mat\u00e9riels de bureau Gestion de la Caisse et la banque Traitement de l\u2019information (collecter, classer et mettre \u00e0 jour) Ma\u00eetrise des outils de bureautique Excel, Word et Power point et de la navigation Internet ;",
+            "job_requirements": " A \u00e9tudier dans une \u00e9cole des Langues/Comptabilit\u00e9/Commerce/Marketing/Journalisme Exigences techniques de l\u2019emploi: Une bonne connaissance de la langue Fran\u00e7aise et la langue Allemande souhait\u00e9 Ma\u00eetrise des outils de bureautique Excel, Word et Power point et de la navigation Internet, emailing Sens de contact et communication avec les clients Exigences relationnelles de l\u2019emploi: Dynamique Ponctuelle Avenante Convaincante\r\n\u00a0\r\nLieu du travail \u00e0 Sfax\u00a0; adresse Getusion: The Language and Study Centre\r\nRue Ahmed Aloulou\r\nImmeuble Fayrouz, 5\u00e8me \u00e9tage\r\n3027, Sfax",
+            "job_type": "Temps plein",
+            "location": "Sfax, Tunisie",
+            "publication_date": "07/06/2019",
+            "expiration_date": "07/07/2019",
+            "category_set": [
+                2,
+                12,
+                10,
+                13
+            ]
+        }
+    },
+    {
+        "model": "jobpost.JobPost",
+        "pk": 15,
+        "fields": {
+            "recruiter": 11,
+            "post_url": "https://www.tanitjobs.com/job/558709/hr-country-manager/?backPage=&searchID=1560198308.1127",
+            "job_title": "HR Country Manager",
+            "job_description": "\r\n\u00d4 TalenT\u00ae Executive Search is a division form \u00d4 TalenT, A tunisia's based HR-Tech and consulting firm, synchronizing strategy and talent to drive superior performance for our clients. We are recruiting, on behalf of our partner a world Class leader in BPO and Customer CAre, the Following profile:\r\nHR Country Manager (Tunisia)\r\nJob Brief:\r\nWe are looking for a CountryHR Manager to oversee the recruiting, compensation and training of the division\u2019s employees.\r\nCountry HR Manager responsibilities include :\r\nSupervising local HR teams, implementing company policies and designing employees\u2019 compensation and benefits plans.\r\nTo be successful in this role, you should have a good knowledge of local labor regulations and experience with Human Resources Management\u00a0\r\nUltimately, you will ensure the company build and maintain a strong local and regional employer brand.\r\nResponsibilities\r\n\r\nIdentify short-term and long-term hiring needs\r\nSet performance standards and evaluate local HR teams\r\nDesign employees\u2019 compensation and benefits packages\r\nDefine onboarding procedures in alignment with\u00a0the company culture\r\nHelp organize employer branding activities (e.g. host a recruitment event)\r\nDetermine training plans per employee and department\r\nPrepare and manage division\u2019s budget\r\nTrack recruitment KPIs and suggest improvements, as needed\r\nDesign and implement company policies that comply with our business objectives\r\nEnsure all HR operations adhere to legal standards\r\nSupport staff and managers on day-to-day issues\r\nCoordinate with Cluster HR Manager to craft organization-wide strategies and objectives\r\n\r\n",
+            "job_requirements": "Requirements\r\n\r\nProven work experience as a Country/ Regional HR Manager or similar role within the BPO industry.\r\nUnderstanding of full cycle recruiting\r\nGood knowledge of local labor regulations\r\nHands-on experience with payroll systems and Human Resources Management Software\r\nExcellent verbal and written communication skills\r\nLeadership abilities\r\nBSc in Human Resources Management or relevant field\r\nExcellent English and French Written and Spoken Communication Skills\r\nan MBA in HR Management is suitable\u00a0\r\n\r\nWe are looking for extremly passionate and highly motivated senior profile , to join the adventure and bring a great value to the executive team based in Tunisia.\u00a0\r\nThis is a High Mamangeme,t position, the Salary package include: Salary / 12 Months, yearly Bonus up to 10% of the yearly gross salary, company car, insurance .....\r\nTo apply and get further information, use the following email: meriam.hamdi@otalent.com.tn\r\n",
+            "job_type": "CDI",
+            "location": "Centre Urbain Nord, Tunis, Tunisie",
+            "publication_date": "09/06/2019",
+            "expiration_date": "08/07/2019",
+            "category_set": [
+                2,
+                1,
+                3,
+                9
+            ]
+        }
+    },
+    {
+        "model": "jobpost.JobPost",
+        "pk": 16,
+        "fields": {
+            "recruiter": 13,
+            "post_url": "https://www.tanitjobs.com/job/559253/web-designer-sp\u00e9cialit\u00e9-marketing/?backPage=1&searchID=1559550706.3656",
+            "job_title": "Web Designer  sp\u00e9cialit\u00e9 Marketing",
+            "job_description": "Nous sommes a la recherche d'un\u00a0Web Designer sp\u00e9cialit\u00e9 Marketing pour :\r\n\r\nCr\u00e9er le site web de l\u2019entreprise\r\nPr\u00e9paration les brochure publicitaire\r\nMarketing les produits a travers les r\u00e9seaux sociaux\r\nCr\u00e9atif(ve), capable d'apporter de nouvelles id\u00e9es et une touche personnelle\r\nD\u00e9velopemment des sites web CMS (Wordpress..)\r\nBonne Connaissance en r\u00e9daction Web\u00a0\r\nMaitrise bien les logiciels de design\r\nConnaissance des outils de montage video .\r\nDot\u00e9(e) d\u2019un excellent r\u00e9dactionnel en fran\u00e7ais et un niveau acceptable en anglais.\r\n",
+            "job_requirements": "\r\nPr\u00e9sentable, Responsable\u00a0et Dynamique.\r\nExcellent relationnel, bonne communication.\r\n",
+            "job_type": "Temps plein",
+            "location": "Mourouj 5, El Mourouj, Tunisie",
+            "publication_date": "10/06/2019",
+            "expiration_date": "10/07/2019",
+            "category_set": [
+                14
+            ]
+        }
+    },
+    {
+        "model": "jobpost.JobPost",
+        "pk": 17,
+        "fields": {
+            "recruiter": 14,
+            "post_url": "https://www.tanitjobs.com/job/553103/assistant-marketing-poste-bas\u00e9-\u00e0-k\u00e8libia/?backPage=1&searchID=1559550706.3656",
+            "job_title": "Assistant marketing (poste bas\u00e9 \u00e0 k\u00e8libia)",
+            "job_description": "Sunshine Elegance, soci\u00e9t\u00e9 sp\u00e9cialis\u00e9e dans le domaine de pr\u00eat \u00e0 porter, recrute un Assistant marketing.\r\n\u00a0** Description de l'emploi :\r\n- Assistance t\u00e9l\u00e9phonique.\r\n- Assurer la gestion et le suivi des commandes,\u00a0apr\u00e8s-vente.\r\n- Assurer un haut niveau de satisfaction client.\r\n-Assurer au quotidien l'animation des outils de communication (r\u00e9seaux sociaux)",
+            "job_requirements": "- Bac + 3 ou plus (marketing, communication, ...)\r\n- un bon fran\u00e7ais obligatoire (\u00e9crit et parl\u00e9).\r\n- Excellent relationnel et bonne communication.\r\n-\u00a0 Esprit d\u2019\u00e9quipe, adaptabilit\u00e9\u00a0\r\n- Comp\u00e9tences informatiques\r\n-\u00a0Comp\u00e9tences\u00a0basiques en Photoshop\r\n-\u00a0Disponibilit\u00e9 imm\u00e9diate.\r\nPour postuler, veuillez envoyer votre CV et lettre de motivation",
+            "job_type": "SIVP",
+            "location": "K\u00e9libia, Tunisie",
+            "publication_date": "10/06/2019",
+            "expiration_date": "16/06/2019",
+            "category_set": [
+                14,
+                12,
+                11,
+                15,
+                16
+            ]
+        }
+    },
+    {
+        "model": "jobpost.JobPost",
+        "pk": 18,
+        "fields": {
+            "recruiter": 15,
+            "post_url": "https://www.tanitjobs.com/job/559234/agent-commercial/?backPage=1&searchID=1559550706.3656",
+            "job_title": "Agent commercial",
+            "job_description": "Bonjour \u00e0 tous,\r\nDans le cadre de son d\u00e9veloppement commercial, la soci\u00e9t\u00e9 Oxilog recherche un agent commercial pour la vente et la distribution de ses services de T\u00e9l\u00e9com et de d\u00e9veloppement Web\r\nSi ce poste vous int\u00e9resse, merci d'envoyer votre candidature\u00a0",
+            "job_requirements": "10/07/2019",
+            "job_type": "CDI",
+            "location": "Le cercle des bureaux, Boulevard de la Terre, Tunis, Tunisie",
+            "publication_date": "10/06/2019",
+            "expiration_date": null,
+            "category_set": [
+                2,
+                1,
+                3,
+                12,
+                11
+            ]
+        }
+    },
+    {
+        "model": "jobpost.JobPost",
+        "pk": 19,
+        "fields": {
+            "recruiter": 16,
+            "post_url": "https://www.tanitjobs.com/job/559236/executive-assistant/?backPage=1&searchID=1559550706.3656",
+            "job_title": "Executive Assistant",
+            "job_description": "Fort de 8 ans d\u2019expertise dans la gestion des sinistres automobiles,\u00a0G\u00e9n\u00e9rale Assistance\u00a0leader du march\u00e9 tunisien de l\u2019assistance automobile, se positionne comme un professionnel sp\u00e9cialis\u00e9 \u0153uvrant \u00e0 pr\u00e9senter un service d\u2019une r\u00e9elle valeur ajout\u00e9e \u00e0 ses clients partenaires.\r\nG\u00e9n\u00e9rale Assistance recherche de nouveaux talents pour accompagner son d\u00e9veloppement.Ce qui rend G\u00e9n\u00e9ral Assistance unique est tout simplement son capital humain\u00a0! Les collaborateurs G\u00e9n\u00e9ral Assistance s\u2019investissent dans leurs missions avec int\u00e9grit\u00e9 et empathie tout en faisant preuve de cr\u00e9ativit\u00e9 et d\u2019excellence dans leurs activit\u00e9s aupr\u00e8s de leurs clients.\r\nVous vous reconnaissez\u00a0? Alors rejoignez-nous\u00a0!\r\nDans le cadre du d\u00e9veloppement de nos activit\u00e9s, nous recherchons une Assistante de Direction. Directement rattach\u00e9 au Pr\u00e9sident-Directeur G\u00e9n\u00e9ral, vous aurez pour mission :\r\n- Accompagner le Directeur dans les divers aspects de son activit\u00e9\u00a0- Assurer un support administratif pour la Direction- G\u00e9rer l'agenda du Directeur en constante \u00e9volution\u00a0- Assurer l'interface avec les diff\u00e9rents contacts internes et externes: t\u00e9l\u00e9phones, mails, organisation de rendez-vous- Assurer la communication dans l'\u00e9quipe et faire circuler l'information- Pr\u00e9parer et suivre les dossiers: pr\u00e9paration des documents supports de pr\u00e9sentations, consolidation et diffusion des ordres du jour, r\u00e9daction des comptes-rendu- Mise en forme de document (word, excel et powerpoint)- Organisation d'\u00e9v\u00e9nements\u00a0-Assurer le secr\u00e9tariat du Directeur (courriers, notes de frais, filtrage appels t\u00e9l\u00e9phoniques, accueil visiteurs)\u00a0- Assurer la logistique de d\u00e9placements du Directeur en Tunisie et \u00e0 l'International ( transports, h\u00e9bergements, visa, envois sp\u00e9cifiques)- L'organisation de r\u00e9unions, s\u00e9minaires, d\u00e9placements et la gestion des notes de frais.",
+            "job_requirements": "Comp\u00e9tences requises:\r\n\u2013 Niveau minimum Bac+4\u2013 Exp\u00e9rience de 5 ans minimum dans un poste similaire\u2013 Ma\u00eetrise des outils informatiques Outlook, Excel, Word etc\u2026 Les autres comp\u00e9tences techniques sont avantageuses.\u2013 Une bonne pr\u00e9sentation.\u2013 Une qualit\u00e9 r\u00e9dactionnelle confirm\u00e9e.\u2013 Esprit de synth\u00e8se, logique et rigueur intellectuelle\u2013 Discr\u00e9tion par rapport aux dossiers trait\u00e9s\u2013 Rigoureuse, polyvalente et organis\u00e9e\u2013 Un bon sens du relationnel et de la communication sera appr\u00e9ci\u00e9.",
+            "job_type": "Temps plein",
+            "location": "Mutuelleville, Tunis, Tunisie",
+            "publication_date": "10/06/2019",
+            "expiration_date": "10/07/2019",
+            "category_set": [
+                10
+            ]
+        }
+    },
+    {
+        "model": "jobpost.JobPost",
+        "pk": 20,
+        "fields": {
+            "recruiter": 17,
+            "post_url": "https://www.tanitjobs.com/job/559235/inspecteur-en-\u00e9lectricit\u00e9-et-levage/?backPage=1&searchID=1559550706.3656",
+            "job_title": "Inspecteur en \u00e9lectricit\u00e9 et levage",
+            "job_description": "Adecco recrute pour le compte de son client un\u00a0\u00a0bureau de contr\u00f4le accr\u00e9dit\u00e9 est le leader Tunisien de l'inspection et du contr\u00f4le technique en s\u00e9curit\u00e9\u00a0des\u00a0\u00a0Inspecteurs en \u00e9lectricit\u00e9 et levage\u00a0.\r\n\r\nCrit\u00e8res :\u00a0\r\n-Ing\u00e9nieur en \u00e9lectrom\u00e9canique, m\u00e9canique...(2 ans d'exp\u00e9rience)\r\n-Technicien sup\u00e9rieur\u00a0en \u00e9lectrom\u00e9canique, m\u00e9canique ( 3 ans d'exp\u00e9rience)\r\n-Motoris\u00e9\r\nSi vous \u00eates\u00a0int\u00e9ress\u00e9s, merci d'envoyer votre candidature \u00e0 l'adresse suivante:\u00a0meryam.houimdi@adeccotunisie.com",
+            "job_requirements": "10/07/2019",
+            "job_type": "CDI",
+            "location": "Montplaisir, Tunis, Tunisie",
+            "publication_date": "10/06/2019",
+            "expiration_date": null,
+            "category_set": [
+                17,
+                18,
+                19
+            ]
+        }
+    },
+    {
+        "model": "jobpost.JobPost",
+        "pk": 21,
+        "fields": {
+            "recruiter": 18,
+            "post_url": "https://www.tanitjobs.com/job/559245/acheteur/?backPage=1&searchID=1559550706.3656",
+            "job_title": "Acheteur",
+            "job_description": "leader dans le domaine de la conception et fabrication des cuisines \u00e9quipes et dressing, la soci\u00e9t\u00e9 promocuisine cherche un acheteur afin de renforcer son service d'achat et d\u2019approvisionnement,\u00a0\r\nMissions:\r\nExaminer les diff\u00e9rentes offres, choisir les produits et services dont l'entreprise a besoin,\r\nProspecter des fournisseurs et des prestataires,\r\nN\u00e9gocier les prix, les d\u00e9lais et le service apr\u00e8s-vente,\r\nVeiller sur la qualit\u00e9 des produits,\r\n\u00c9tablir et passer les commandes, effectuer les achats\r\nAssurer le reporting aupr\u00e8s de la Direction financi\u00e8re\u00a0et g\u00e9n\u00e9rale de l'entreprise.",
+            "job_requirements": "10/07/2019",
+            "job_type": "CDD",
+            "location": "Tazarka, Tunisie",
+            "publication_date": "10/06/2019",
+            "expiration_date": null,
+            "category_set": [
+                6
+            ]
+        }
+    },
+    {
+        "model": "jobpost.JobPost",
+        "pk": 22,
+        "fields": {
+            "recruiter": 19,
+            "post_url": "https://www.tanitjobs.com/job/559247/recrutement-technicien/?backPage=1&searchID=1559550706.3656",
+            "job_title": "Recrutement Technicien",
+            "job_description": "Soci\u00e9t\u00e9 \u00ab\u00a0CINELEC\u00a0\u00bb cherche \u00e0 recruter\u00a0un \u00a0jeune (H) technicien sup\u00e9rieur d'une formation de niveau Bac+3 minimum.\r\n\u00a0\r\nProfil :\r\nDipl\u00f4me\u00a0: Licence en r\u00e9seau et c\u00e2blage ou \u00e9quivalent.\r\nGrandes capacit\u00e9s d\u2019apprentissage, dynamique, s\u00e9rieux, polyvalent, rigoureux, ponctuel, professionnel.\r\nPassionn\u00e9 par le monde de l\u2019Audiovisuel et du Cin\u00e9ma.\r\ndisponible imm\u00e9diatement.\r\nPermis de conduire exig\u00e9.\r\n\u00a0\r\n\u00a0Lieu de travail\u00a0\r\n\u00a0Montplaisir - Tunis\r\nLes candidats int\u00e9ress\u00e9s, peuvent envoyer leurs CV",
+            "job_requirements": "10/07/2019",
+            "job_type": "CDI",
+            "location": "Montplaisir, Tunis, Tunisie",
+            "publication_date": "10/06/2019",
+            "expiration_date": null,
+            "category_set": [
+                20
+            ]
+        }
+    },
+    {
+        "model": "jobpost.JobPost",
+        "pk": 23,
+        "fields": {
+            "recruiter": 20,
+            "post_url": "https://www.tanitjobs.com/job/559249/contr\u00f4leur-se-qualit\u00e9-pour-plateforme/?backPage=1&searchID=1559550706.3656",
+            "job_title": "Contr\u00f4leur(se) Qualit\u00e9  pour plateforme",
+            "job_description": "Mission\u00a0: Proc\u00e9der aux op\u00e9rations de contr\u00f4le de qualit\u00e9 en d\u00e9but, en cours et en fin de fabrication, d\u2019une mani\u00e8re syst\u00e9matique et/ou par sondage.\u00a0\r\n",
+            "job_requirements": "Exp\u00e9rience demand\u00e9 sur des articles techniques\r\nConnaissance confirm\u00e9 du processus de fabrication\r\nD\u00e9placements n\u00e9cessaires",
+            "job_type": "Temps plein",
+            "location": "Ksibet El M\u00e9diouni, Monastir, Tunisie",
+            "publication_date": "10/06/2019",
+            "expiration_date": "10/07/2019",
+            "category_set": [
+                4
+            ]
+        }
+    },
+    {
+        "model": "jobpost.JobPost",
+        "pk": 24,
+        "fields": {
+            "recruiter": 21,
+            "post_url": "https://www.tanitjobs.com/job/559248/un-directeur-des-salles-restaurants/?backPage=1&searchID=1559550706.3656",
+            "job_title": "UN DIRECTEUR DES SALLES RESTAURANTS",
+            "job_description": "Un Hotel de prestige, appartient \u00e0 une cha\u00eene H\u00f4teli\u00e8re Internationale et de renomm\u00e9e, cherche \u00e0 renforcer son effectif par un:\r\n\u00a0 \u00a0- UN DIRECTEUR DES SALLES RESTAURANTS\r\n\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u00a0",
+            "job_requirements": "- une grande exp\u00e9rience dans la restauration H\u00f4teli\u00e8re, si non s'abstenir.\r\n- Forte personnalit\u00e9, charismatique, capable de g\u00e9rer une \u00e9quipe de 40 personnes.\r\n- Polyvalent et de caract\u00e8re.",
+            "job_type": "CDD",
+            "location": "Jinene Beach, Sousse, Hammam Sousse, Tunisie",
+            "publication_date": "10/06/2019",
+            "expiration_date": "10/07/2019",
+            "category_set": [
+                21
+            ]
+        }
+    },
+    {
+        "model": "jobpost.JobPost",
+        "pk": 25,
+        "fields": {
+            "recruiter": 22,
+            "post_url": "https://www.tanitjobs.com/job/559242/technico-commercial-h-f/?backPage=1&searchID=1559550706.3656",
+            "job_title": "Technico-commercial (H/F)",
+            "job_description": "\r\n\u00a0votre principale mission est d\u2019accueillir, \u00e9couter, conseiller le client dans ses besoins t\u00e9l\u00e9coms et vous assurer de sa satisfaction. Tels sont les ma\u00eetres mots qui orientent votre action. Vous offrez aux clients une relation personnalis\u00e9e, bas\u00e9e sur la proximit\u00e9 et l\u2019honn\u00eatet\u00e9.\r\nAu poste de\u00a0conseiller technique en boutique, vous accompagnez tel un coach le client dans sa d\u00e9couverte des nouveaux usages t\u00e9l\u00e9coms associ\u00e9s aux produits commercialis\u00e9s par Orange et assurez les op\u00e9rations n\u00e9cessaires (activation carte, param\u00e9trage ..) \u00e0 une configuration personnalis\u00e9e ou \u00e0 une utilisation imm\u00e9diate en sortie de boutique.\r\n\r\n\u00a0",
+            "job_requirements": "Votre profil (F/H)\r\nDe formation bac \u00e0 bac +2 orient\u00e9e relation client, vous disposez dans l\u2019id\u00e9al d\u2019une premi\u00e8re exp\u00e9rience de la vente et le contact avec le client vous motive.\r\nP\u00e9dagogue, vous \u00eates \u00e0 m\u00eame de valoriser aupr\u00e8s des clients Orange votre enthousiasme pour les nouvelles technologies et les services innovants associ\u00e9s. Notez que pour le poste de conseiller technique en boutique, vous devez \u00eatre un technophile averti.",
+            "job_type": "Temps plein",
+            "location": "El ghazela, Ariana, Tunisie",
+            "publication_date": "10/06/2019",
+            "expiration_date": "10/07/2019",
+            "category_set": [
+                2,
+                3,
+                14,
+                12,
+                6
+            ]
+        }
+    },
+    {
+        "model": "jobpost.JobPost",
+        "pk": 26,
+        "fields": {
+            "recruiter": 20,
+            "post_url": "https://www.tanitjobs.com/job/559251/contr\u00f4leur-se-qualit\u00e9-en-cours-de-cha\u00eene-de-confection/?backPage=1&searchID=1559550706.3656",
+            "job_title": "Contr\u00f4leur(se) Qualit\u00e9  en cours de cha\u00eene de confection",
+            "job_description": "\r\nMission\u00a0: Effectuer les contr\u00f4les techniques de qualit\u00e9 des mod\u00e8les encours de production et des produits finis.\r\n",
+            "job_requirements": "Exp\u00e9rience demand\u00e9 sur des articles techniques\r\nConnaissance confirm\u00e9 du processus de fabrication\r\nPas de d\u00e9placements",
+            "job_type": "Temps plein",
+            "location": "Ksibet El M\u00e9diouni, Tunisie",
+            "publication_date": "10/06/2019",
+            "expiration_date": "10/07/2019",
+            "category_set": [
+                4
+            ]
+        }
+    },
+    {
+        "model": "jobpost.JobPost",
+        "pk": 27,
+        "fields": {
+            "recruiter": 23,
+            "post_url": "https://www.tanitjobs.com/job/559250/agent-de-r\u00e9servation/?backPage=1&searchID=1559550706.3656",
+            "job_title": "Agent de r\u00e9servation",
+            "job_description": "Primavera Travel agence de voyages sise SFAX sp\u00e9cialiste dans l\u2019organisation des s\u00e9jours en Tunisie et \u00e0 l\u2019\u00e9tranger, dans le cadre du d\u00e9veloppent de notre activit\u00e9, nous cherchons un agent de r\u00e9servation.",
+            "job_requirements": "Mission :\u00b7 Accueillir (physiquement et par t\u00e9l\u00e9phone) les clients, fournisseurs, visiteurs, les conseiller, etc.\u00b7 R\u00e9server les prestations selon les demandes clients,\u00b7 Conseiller les clients dans leur choix,\u00b7 Suivre les r\u00e9servation et options d\u2019achats,\u00b7 Rechercher le meilleur tarif et itin\u00e9raire,\u00b7 Saisir et mettre en forme les r\u00e9ponses clients,\u00b7 Rechercher de nouveaux clients et partenaires (compagnies a\u00e9riennes, h\u00f4tels, tours op\u00e9rateurs, etc.)\u00b7 Rechercher de nouveaux produits et services touristiques.\r\nProfil recherch\u00e9 :\u00b7 Vous justifiez d\u2019une exp\u00e9rience significative \u00e0 un poste similaire.\u00b7 Vous avez une parfaite ma\u00eetrise du fran\u00e7ais tant \u00e0 l\u2019\u00e9crit qu\u2019\u00e0 l\u2019oral.\u00b7 Vous \u00eates dot\u00e9 d\u2019un sens de la communication et vous avez la fibre commerciale.\u00b7 Vous ma\u00eetrisez parfaitement les logiciels Word, Excel, Power point et Outlook.\u00b7 Vous \u00eates rigoureuse, polyvalente, autonome, r\u00e9active, organis\u00e9e et disponible.\r\nSi vous faites partie des personnes ayant ces qualit\u00e9s, donc venez passer un entretien chez nous pour commencer votre carri\u00e8re.\r\n",
+            "job_type": "Saisonnier",
+            "location": "Sfax, Tunisie",
+            "publication_date": "10/06/2019",
+            "expiration_date": "15/06/2019",
+            "category_set": [
+                14,
+                12
+            ]
+        }
+    },
+    {
+        "model": "jobpost.JobPost",
+        "pk": 28,
+        "fields": {
+            "recruiter": 24,
+            "post_url": "https://www.tanitjobs.com/job/559254/stage-d-\u00e9tude-website-designer/?backPage=1&searchID=1559550706.3656",
+            "job_title": "Stage d'\u00e9tude Website Designer",
+            "job_description": "Nous recherchons un(e) jeune \u00e9tudiant(e) dans les domaines infographiste, website Designer, bien motiv\u00e9(e), niveau d'\u00e9tude\u00a0: pas important.\r\nPi\u00e9ride\u00a0: 3 mois avec pr\u00e9sence au bureaux non exig\u00e9e.\r\nLes candidats doivent envoyer cv avec photo",
+            "job_requirements": "10/07/2019",
+            "job_type": "Saisonnier",
+            "location": "Sahloul, Sousse, Tunisie",
+            "publication_date": "10/06/2019",
+            "expiration_date": null,
+            "category_set": [
+                14
+            ]
+        }
+    },
+    {
+        "model": "jobpost.JobPost",
+        "pk": 29,
+        "fields": {
+            "recruiter": 25,
+            "post_url": "https://www.tanitjobs.com/job/559261/chef-de-projet-digital-h-f/?backPage=1&searchID=1559550706.3656",
+            "job_title": "Chef de Projet digital H/F",
+            "job_description": "Qui sommes- nous\u00a0\r\nMaster Franchise\u00a0est une agence offshore filiale de l\u2019agence fran\u00e7aise\u00a0Starters United, agence sp\u00e9cialis\u00e9e dans le domaine de cr\u00e9ation et d\u00e9veloppement de marque.\r\nDans le cadre de l\u2019expansion de nos activit\u00e9s, nous recrutons\u00a0:\r\n\u00a0\r\nUn Chef de projet digital H/F\r\nVotre mission est de g\u00e9rer le p\u00f4le digital,\u00a0sous la responsabilit\u00e9 du directeur communication et marketing pour r\u00e9pondre de fa\u00e7on sp\u00e9cifique aux enjeux et aux objectifs des projets web. Votre objectif est d\u2019assurer la pertinence et la coh\u00e9rence des solutions mises en \u0153uvre par notre \u00e9quipe dans le contexte sp\u00e9cifique du client.\r\nMissions principales\u00a0:\r\n\r\nManager une \u00e9quipe de 4 personnes (R\u00e9partition des t\u00e2ches, gestion des priorit\u00e9s\u2026)\r\nRecueillir \u00e0 la fois les besoins (prise de brief), \u00e9value la faisabilit\u00e9 technique du projet ainsi que sa pertinence en fonction de l\u2019environnement \u00e9conomique, la strat\u00e9gie de l\u2019entreprise et les tendances du web\r\nConnaissance des contraintes et probl\u00e9matiques des projets digitaux\u00a0: gestion de ressources, respect des plannings et des d\u00e9lais, reportings et suivi de l\u2019\u00e9tat d\u2019avancement des projets, contr\u00f4le et suivi des productions, validation des livrables.\r\nMise en \u0153uvre de strat\u00e9gies (communication et marketing web, publication r\u00e9seaux sociaux)\r\nR\u00e9alisation de cahiers des charges (benchmark, \u00e9tude de la cible, positionnement, contrat de lecture, arborescence, zoning, pr\u00e9conisations, planning pr\u00e9visionnel)\r\nAnalyse des r\u00e9sultats et des axes d\u2019am\u00e9lioration du p\u00f4le digital.\r\nOptimisation de la strat\u00e9gie web de l\u2019entreprise.\r\n\u00a0Gestion des diff\u00e9rents sites web du groupe\r\n\u00a0Suivi op\u00e9rationnel des campagnes et webmastering.\r\nVeille sur les sujets digitaux: sites web, r\u00e9seaux sociaux, mesure des actions, optimisation des landing pages, outils d\u2019analyse \u2026 Etre inform\u00e9 des derni\u00e8res tendances est primordial pour d\u00e9velopper des offres et concepts innovants et proposer de nouvelles approches dans le domaine de la communication digitale et interactive.\r\n",
+            "job_requirements": "Profil demand\u00e9\u00a0:\r\n\r\n\u00a0Dipl\u00f4m\u00e9 en multim\u00e9dia ou en web marketing, avec une exp\u00e9rience d\u2019au moins 5 ans \u00e0 un poste similaire.\r\nDe grandes capacit\u00e9s d\u2019organisation, un bon niveau d\u2019autonomie pour animer, coordonner et conduire un projet, de bonnes qualit\u00e9s relationnelles, de la rigueur et de la r\u00e9activit\u00e9.\r\nVous \u00eates passionn\u00e9 par les environnements et les tendances du web, du design et des comportements humains et digitaux (site web, appli mobile, r\u00e9seaux sociaux\u00a0\u2026).\r\nVous avez une ma\u00eetrise parfaitedes bonnes pratiques et des m\u00e9tiers li\u00e9s au web (r\u00e9daction web, community management, webdesign, UX design, webmarketing, int\u00e9gration et d\u00e9veloppement)\r\nVous ma\u00eetrisez les techniques de r\u00e9f\u00e9rencement (SEO, SEA, SMO).\r\nVous ma\u00eetriser \u00e9galement les r\u00e9seaux sociaux et leurs enjeux\r\nBon relationnel, excellente communication et facilit\u00e9 d\u2019int\u00e9gration.\r\n\u00a0Avoir des facilit\u00e9s de pr\u00e9sentation, de communication et de n\u00e9gociation,\r\n\u00a0Curiosit\u00e9, go\u00fbt du d\u00e9fi et de l\u2019innovation,\r\nMa\u00eetrise parfaite de la langue fran\u00e7aise \u00e0 l\u2019oral comme \u00e0 l\u2019\u00e9crit\r\nBonne ma\u00eetrise d\u2019Internet et des outils informatiques (Word, Excel, Powerpoint, gestion des emails, et logiciels de la suite Adobe)\r\n\r\n\u00a0\r\nNos avantages :\r\n\u00a0 \u00a0 \u00a0- Emplacement strat\u00e9gique (centre urbain nord), et tr\u00e8s accessible (M\u00e9tro, Bus) \u00a0 \u00a0 \u00a0- Une \u00e9quipe jeune et dynamique \u00a0 \u00a0 \u00a0-Horaire administratif du lundi au vendredi de 9h \u00e0 13h et de 14h \u00e0 18h \u00a0 \u00a0 \u00a0- Poste stable d\u2019avenir \u00a0 \u00a0 \u00a0- Salaire motivant selon qualification avec prime\r\n Si vous \u00eates int\u00e9ress\u00e9 (e), veuillez envoyer votre CV et quelques exemples de vos r\u00e9alisations. Les candidatures sans portfolio ne seront pas prises en consid\u00e9ration",
+            "job_type": "Temps plein",
+            "location": "Centre Urbain Nord, Tunis, Tunisie",
+            "publication_date": "10/06/2019",
+            "expiration_date": "10/07/2019",
+            "category_set": [
+                12
+            ]
+        }
+    },
+    {
+        "model": "jobpost.JobPost",
+        "pk": 30,
+        "fields": {
+            "recruiter": 26,
+            "post_url": "https://www.tanitjobs.com/job/559258/responsable-maintenance/?backPage=1&searchID=1559550706.3656",
+            "job_title": "Responsable maintenance",
+            "job_description": "Une soci\u00e9t\u00e9 de b\u00e2timents et travaux publiques cherche \u00e0 recruter un Responsable maintenance et logistique.",
+            "job_requirements": "Une formation en m\u00e9canique ou en maintenance industrielle est souhaitable.\r\nun permis de conduire.",
+            "job_type": "Temps plein",
+            "location": "Tunis, Tunisie",
+            "publication_date": "10/06/2019",
+            "expiration_date": "10/07/2019",
+            "category_set": [
+                22,
+                20,
+                23,
+                17,
+                18
+            ]
+        }
+    },
+    {
+        "model": "jobpost.JobPost",
+        "pk": 31,
+        "fields": {
+            "recruiter": 27,
+            "post_url": "https://www.tanitjobs.com/job/559256/d\u00e9veloppeur-laravel-junior/?backPage=1&searchID=1559550706.3656",
+            "job_title": "D\u00e9veloppeur LARAVEL JUNIOR",
+            "job_description": "Nous sommes \u00e0 la recherche d\u2019un\u00a0int\u00e9grateur/d\u00e9veloppeur\u00a0 ayant pour missions :\u00a0 - Int\u00e9gration de templates html sous Laravel\r\n- D\u00e9veloppement de sites vitrines / e-commerce - D\u00e9veloppements de sites et applications sur mesure\r\n\r\nExp\u00e9rience exig\u00e9e : 0 \u00e0 2 ans , mais\u00a0 le candidat doit confirmer ses connaissances via une p\u00e9riode de test de deux semaines.\r\n",
+            "job_requirements": "Comp\u00e9tences techniques exig\u00e9es :\r\n\r\nLa maitrise de HTML5/CSS3/JS, JQuery, Bootstrap, analytics\r\nMaitrise des Frameworks PHP\u00a0:\u00a0 symfony,laravel\r\nMaitrise des architectures logicielles et d\u00e9veloppement logiciel (design patterns, qualit\u00e9 logicielle, architecture du Web, applications Web, Web services, etc.)\r\nConnaissance approfondie de l\u2019\u00e9cosyst\u00e8me API et webservices (SOAP, REST)\r\nMaitrise d\u2019exploitation des serveurs web et d\u2019application.\r\n",
+            "job_type": "Temps plein",
+            "location": "Tunis, Tunisie",
+            "publication_date": "10/06/2019",
+            "expiration_date": "10/07/2019",
+            "category_set": [
+                2,
+                3
+            ]
+        }
+    },
+    {
+        "model": "jobpost.JobPost",
+        "pk": 32,
+        "fields": {
+            "recruiter": 28,
+            "post_url": "https://www.tanitjobs.com/job/559262/technico-commercial/?backPage=1&searchID=1559550706.3656",
+            "job_title": "Technico-commercial",
+            "job_description": "Nous Recrutons pour le compte de l'un de nos clients, Un Technico-Commercial, sur la r\u00e9gion de Tunis.\r\nMissions:\r\n\r\nD\u00e9finir le plan d'action commercial et \u00e9tablir le plan de tourn\u00e9e (ciblage, interlocuteurs..)\u00a0\r\n\u00a0\u00c9tablir un devis\r\nN\u00e9gocier un contrat\r\n\u00c9tablir un contrat de vente\r\nV\u00e9rifier les conditions de r\u00e9alisation d'une commande\r\nSuivre la r\u00e9alisation d'une prestation technique\r\nAnalyser les r\u00e9sultats des ventes\r\n",
+            "job_requirements": "Formation Initiale: Bac +3 et plus en Gestion/ Commerce ou \u00e9lectrom\u00e9canique/\u00e9lectrique.\r\nExp\u00e9rience Exig\u00e9e: une ann\u00e9e dans un poste similaire.\r\n",
+            "job_type": "SIVP",
+            "location": "Tunis, Tunisie",
+            "publication_date": "10/06/2019",
+            "expiration_date": "10/07/2019",
+            "category_set": [
+                4
+            ]
+        }
+    },
+    {
+        "model": "jobpost.JobPost",
+        "pk": 33,
+        "fields": {
+            "recruiter": 29,
+            "post_url": "https://www.tanitjobs.com/job/559265/commercial-anglais/?backPage=1&searchID=1559550706.3656",
+            "job_title": "commercial anglais",
+            "job_description": "Description\r\n\r\n\r\nMotopart Tunisia est une fili\u00e8re de la soci\u00e9t\u00e9 Motopart sp\u00e9cialis\u00e9 dans la vente en ligne des pi\u00e8ces de rechange de tout types des moteurs sur\u00a0son site.\r\nNotre mission est de g\u00e9rer la partie anglophone de d'Afrique en terme vente et suivi, pour cela :\r\nNous recherchons :\r\nUn/Une Commercial(e)\r\n",
+            "job_requirements": "\r\n\u00a0_ Vous aimez les relations humaines.\r\n\u2013 Vous ma\u00eetrisez parfaitement la langue anglaise (\u00e9crit, parl\u00e9)\r\n\u2013 Vous avez une bonne \u00e9locution\r\n\u2013 Vous\u00a0\u00eates d\u2019une tr\u00e8s grande ponctualit\u00e9, assiduit\u00e9 et s\u00e9rieux\r\n\u2013 Vous \u00eates dynamique et vous avez le sens de la responsabilit\u00e9 Merci de nous faire parvenir votre dossier de candidature (CV)",
+            "job_type": "CDD",
+            "location": "Sousse, Tunisie",
+            "publication_date": "10/06/2019",
+            "expiration_date": "10/07/2019",
+            "category_set": [
+                14
+            ]
+        }
+    },
+    {
+        "model": "jobpost.JobPost",
+        "pk": 34,
+        "fields": {
+            "recruiter": 30,
+            "post_url": "https://www.tanitjobs.com/job/559263/devsps06-develloper-php-junior/?backPage=1&searchID=1559550706.3656",
+            "job_title": "DevSPS06 : DEVELLOPER PHP  JUNIOR",
+            "job_description": "L\u2019agence de communication \u00ab\u00a0Infobia\u00a0\u00bb sise au Berges du Lac 1\u00a0recrute de suite un(e) d\u00e9veloppeur web PHP sp\u00e9cialis\u00e9 en PrestaShop\u00a0\r\nMission\u00a0:\r\n\r\nD\u00e9veloppement des sites ou de solutions Web en PHP.\r\nMise en place de boutiques en ligne sous Prestashop/ Wordpress.\r\nD\u00e9veloppement sp\u00e9cifique de modules/prestashop / plugins wordpress.\r\n",
+            "job_requirements": "\r\nBac+3 ou plus ayant une exp\u00e9rience d\u2019au moins\u00a0un an\r\nMa\u00eetrise parfaite du HTML5, jQuery, CSS3, JS, bootstrap, responsive design\u2026\r\nMa\u00eetrise parfaite du langage PHP\r\nMaitrise parfaite du CMS prestashop\r\nBon niveau en termes de bases de donn\u00e9es.\r\nUne exp\u00e9rience minimale sur les CMS Prestashop et/ou Wordpress\r\nMa\u00eetrise de la langue Fran\u00e7aise\r\n\r\nVous \u00eates s\u00e9rieux et vous cherchez un poste d\u2019avenir, envoyez votre\u00a0CV+Photo\u00a0",
+            "job_type": "Temps plein",
+            "location": "Berges du Lac, Tunis, Tunisie",
+            "publication_date": "10/06/2019",
+            "expiration_date": "10/07/2019",
+            "category_set": [
+                2
+            ]
+        }
+    },
+    {
+        "model": "jobpost.JobPost",
+        "pk": 35,
+        "fields": {
+            "recruiter": 17,
+            "post_url": "https://www.tanitjobs.com/job/559264/responsable-service-m\u00e9canique/?backPage=1&searchID=1559550706.3656",
+            "job_title": "Responsable service m\u00e9canique",
+            "job_description": "Nous recherchons pour le compte de l'un de nos clients, un Responsable entretien m\u00e9canique dont les missions principales sont la :\r\n\r\nGestion des activit\u00e9s m\u00e9caniques\r\nPrise en charge des entretiens pr\u00e9ventifs\r\nPrise en charge des\u00a0entretiens curatifs\r\nPrise en charge des\u00a0les constructions et fabrications m\u00e9caniques...\r\n",
+            "job_requirements": "\r\nIng\u00e9nieur \u00e9lectrom\u00e9canique\r\n\r\nfaire preuve d\u2019une bonne gestion d\u2019\u00e9quipe et une excellente \u00a0ma\u00eetrise de la maintenance m\u00e9canique\r\n\r\n\r\nUne exp\u00e9rience min 3 dans un poste similaire (organisation structur\u00e9e)\r\n\r\nBon fran\u00e7ais et anglais\u00a0\r\n",
+            "job_type": "CDI",
+            "location": "Grombalia, Tunisie",
+            "publication_date": "10/06/2019",
+            "expiration_date": "10/07/2019",
+            "category_set": [
+                4
+            ]
+        }
+    },
+    {
+        "model": "jobpost.JobPost",
+        "pk": 36,
+        "fields": {
+            "recruiter": 31,
+            "post_url": "https://www.tanitjobs.com/job/460243/d\u00e9veloppeur-business-intelligence/?backPage=&searchID=1560198308.1127",
+            "job_title": "D\u00e9veloppeur Business Intelligence",
+            "job_description": "Kyalis-tech est la filiale tunisienne de Kyalis, soci\u00e9t\u00e9 canadienne.\r\nLe projet consiste en la cr\u00e9ation d\u2019un module d\u00e9cisionnel complet pour les d\u00e9partements de la direction ainsi que des op\u00e9rations pour un client de l\u2019industrie du tourisme canadien.\r\nVous rejoindrez une \u00e9quipe \u00e0 Tunis qui vous formera et vous accompagnera tout au long du projet.\r\nCe que vous allez faire chez nous :\r\n\r\nFaire partie d'une \u00e9quipe de d\u00e9veloppement agile (2 d\u00e9veloppeurs BI, 7 d\u00e9veloppeurs Web) pour travailler sur des projets ambitieux\r\nMettre en \u0153uvre un syst\u00e8me d\u00e9cisionnel innovant du march\u00e9\r\nPr\u00e9senter et expliquer \u00e0 vos collaborateurs vos choix techniques, votre fa\u00e7on de faire\r\n",
+            "job_requirements": "Ce que nous recherchons chez vous :\r\nUn d\u00e9veloppeur d\u00e9butant ou junior ayant la capacit\u00e9 d\u2019\u00e9voluer et de s\u2019adapter aux comp\u00e9tences techniques n\u00e9cessaires ainsi qu\u2019aux comp\u00e9tences g\u00e9n\u00e9rales (Communication, organisation, curiosit\u00e9, rigueur autonomie, esprit de synth\u00e8se) tout aussi essentielles \u00e0 l\u2019aboutissement de nos projets.\r\nEn contrepartie nous vous aiderons \u00e0 \u00e9voluer vers un profil exp\u00e9riment\u00e9.\r\nLes comp\u00e9tences n\u00e9cessaires \u00e0 ce poste :\r\n\r\nBonne capacit\u00e9 de communication verbale et \u00e9crite\r\nNiveau d'anglais permettant d'\u00eatre autonome sur toute documentation technique (vous travaillerez avec le Canada)\r\n\u00catre un humain respectable (cela vient en premier, en fait)\r\nMicrosoft BI : SSIS, SSAS, SSRS.\r\nVisual studio 2010 ou ult\u00e9rieur.\r\nT-SQL.\r\nMod\u00e9lisation multidimensionnelle.\r\nPostGreSQL.\u00a0\r\n\r\nVous ne vous retrouvez pas compl\u00e8tement dans ce profil, peut \u00eatre avez des arguments convaincants \u00e0 nous exposer ?",
+            "job_type": "SIVP",
+            "location": "Tunis, Tunisie",
+            "publication_date": "07/06/2019",
+            "expiration_date": "07/07/2019",
+            "category_set": [
+                2,
+                22,
+                3
+            ]
+        }
+    },
+    {
+        "model": "jobpost.JobPost",
+        "pk": 37,
+        "fields": {
+            "recruiter": 32,
+            "post_url": "https://www.tanitjobs.com/job/552183/conseillers-clients-fran\u00e7ais-anglais-italien/?backPage=&searchID=1560198308.1127",
+            "job_title": "Conseillers Clients (Fran\u00e7ais,Anglais,Italien)",
+            "job_description": "Concentrix est un acteur majeur dans le milieu des centres d\u2019appels, avec une reconnaissance par plusieurs d\u2019un lieu o\u00f9 commencent des incroyables carri\u00e8res. Que vous soyez en d\u00e9but de profession ou que vous entamez un virage \u00e0 180 d\u00e9gr\u00e9es, nous vous offrons des opportunit\u00e9s r\u00e9elles afin de vous d\u00e9velopper et d\u2019approfondir vos connaissances via nos plans de carri\u00e8res.Nous croyons dans la formation continue et via les diverses possibilit\u00e9s chez Concentrix, nous vous accompagnons dans votre croissance car nos employ\u00e9s sont indiscutablement notre richesse et notre pilier pour avancer !\r\nPourquoi rejoindre Concentrix\u00a0?\r\n\r\nUne croissance constante et soutenue.\r\nUne stabilit\u00e9 professionnelle.\r\nUn plan de carri\u00e8re avec des opportunit\u00e9s r\u00e9elles d\u2019\u00e9voluer au sein du groupe.\r\nUne formation soutenue.\r\nUne expertise et une \u00e9quipe globale.\r\nUn environnement de travail chaleureux, accueillant, professionnelle, amical et motivant.\r\nUn engagement de se positionner comme un \u2018Employer of Choice\u2019 soutenant la diversit\u00e9 de nos employ\u00e9s.\r\n\r\n\r\nD\u2019autres avantages\u00a0:\r\n\r\nUn contrat en CDI/SIVP !\r\nUn salaire comp\u00e9titif\u00a0!\r\nUne prime mensuelle sur les objectifs\u00a0!\r\nUne prime annuelle selon votre bilan de performance\u00a0!\r\nPlusieurs bonus en terme de challenge\u00a0!\r\nUne prime de pr\u00e9sence\u00a0 !\r\nUne prime pour\u00a0les dimanches\u00a0!\r\nUne r\u00e9mun\u00e9ration double si vous travaillez la nuit\u00a0!\r\nUn plan de formation payant d\u00e8s le premier jour\u00a0!\r\nUn plan d' assurance sant\u00e9 pour toute la famille\u00a0 !\r\nUne prise en charge du transport\u00a0\u00a0(aller/retour)\u00a0\u00a0et ceci d\u00e8s le premier jour de formation\u00a0!\r\nTickets restaurants de 110 TND mensuel\u00a0 \u00e0 notre charge !\r\nUne formation continue via nos supports globaux\u00a0 pour vous aider dans l\u2019acquisition de nouvelles comp\u00e9tences.\r\n",
+            "job_requirements": "Nous recherchons activement des charg\u00e9(e)s de client\u00e8le (CDC) pour plusieurs de nos activit\u00e9s en occurrence sur du service technique/la vente /l\u2019aviation.\r\nA l\u2019issue de votre formation r\u00e9mun\u00e9r\u00e9e, \u00a0vous allez continuer de b\u00e9n\u00e9ficier d\u2019un coaching de proximit\u00e9 ainsi qu\u2019une formation continue afin de vous permettre de grandir et d\u2019accomplir vos missions pleinement.\r\nProfil du candidat\u00a0: Vous \u00eates\u00a0\u00e0 la recherche d\u2019un nouveau souffle? Vous souhaitez recevoir vos perspectives de carri\u00e8res\u00a0? Vous venez de terminer vos \u00e9tudes et vous recherchez une exp\u00e9rience significative sur votre CV\u00a0?\r\nSi Oui\u00a0? Alors, vous \u00eates \u00e0 la bonne adresse\u00a0!",
+            "job_type": "Temps plein",
+            "location": "La Charguia II, Tunis, Tunisie",
+            "publication_date": "14/05/2019",
+            "expiration_date": "13/06/2019",
+            "category_set": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "jobpost.JobPost",
+        "pk": 38,
+        "fields": {
+            "recruiter": 4,
+            "post_url": "https://www.tanitjobs.com/job/558448/1-responsable-d\u00e9veloppement-rh/?backPage=&searchID=1560198308.1127",
+            "job_title": "1 Responsable D\u00e9veloppement RH",
+            "job_description": "Notre client est un groupe international, financi\u00e8rement solide et ind\u00e9pendant, collaborant avec une multitude de compagnies op\u00e9rant dans les domaines de l\u2019Industrie, secteur Public, Construction de plateformes p\u00e9troli\u00e8res\u2026\r\nCe groupe est aujourd\u2019hui mondialement reconnu pour ses solutions innovantes, ainsi que pour la fiabilit\u00e9 et l\u2019efficacit\u00e9 de ses prestations partout dans le Monde.\r\nDans le cadre de la forte croissance de ses activit\u00e9s en Tunisie, la Direction RH r\u00e9gionale du groupe recherche\u00a0:\r\n\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 1 Responsable D\u00e9veloppement RH \u00a0\r\nVotre mission\u00a0: \r\nRattach\u00e9(e) a la Direction RH du groupe, vous \u00eates en charge de tout ce qui se rapporte aux projets de d\u00e9veloppement RH\u00a0(recrutement, formation, impl\u00e9mentation des projets corporate\u2026).\r\nVos principales missions sont\u00a0:\r\n-Assurer le recrutement selon les besoins et selon une strat\u00e9gie bien d\u00e9finie.\r\n-\u00c9tablir un plan de formation et piloter son d\u00e9ploiement.\r\n-Travailler sur la gestion des projets, le e-learning, les matrices de comp\u00e9tences\u2026\r\n-Assurer le suivi des projets RH en cours, et intervenir en cas de besoin.\r\n-Conseiller et accompagner les responsables op\u00e9rationnels ou fonctionnels impliqu\u00e9s.\r\n-Veiller \u00e0 l\u2019organisation de l\u2019ensemble des \u00e9v\u00e9nements groupe et l\u2019optimisation de toutes les proc\u00e9dures. \u00a0\r\nVotre profil\u00a0: \r\nDe formation Bac+4/5 GRH, Psychologie du Travail ou autre domaine pertinent, vous justifiez d\u2019au moins 5 ans d\u2019exp\u00e9rience dans un poste similaire, id\u00e9alement en multinationale. \u00a0\r\nVous vous reconnaissez dans les caract\u00e9ristiques ci-dessous\u00a0:\r\n-Capacit\u00e9 \u00e0 conceptualiser pour d\u00e9velopper des projets.\r\n-Aptitudes \u00e0 innover et \u00e0 faire \u00e9merger de nouvelles id\u00e9es.\r\n-Dynamisme pour lancer et faire vivre des projets innovants.\r\n-Capacit\u00e9 \u00e0 accompagner le changement dans l\u2019entreprise.\r\n-Diplomatie et aptitudes relationnelles pour m\u00e9nager les sensibilit\u00e9s de chacun et les faire adh\u00e9rer aux enjeux des projets.\r\n-Sens de l\u2019organisation afin de g\u00e9rer simultan\u00e9ment plusieurs projets.\r\n-Pragmatisme pour pouvoir agir et intervenir de fa\u00e7on concr\u00e8te.\r\nVous vous reconnaissez dans ce profil, alors rejoignez-nous en nous adressant votre CV en mentionnant la r\u00e9f\u00e9rence RDRH \u00e0: recrutement@groupe-fm.com",
+            "job_requirements": "07/07/2019",
+            "job_type": "CDI",
+            "location": "Les Berges du Lac, Tunis, Tunisie",
+            "publication_date": "07/06/2019",
+            "expiration_date": null,
+            "category_set": [
+                24,
+                7,
+                25,
+                26,
+                13
+            ]
+        }
+    },
+    {
+        "model": "jobpost.JobPost",
+        "pk": 39,
+        "fields": {
+            "recruiter": 33,
+            "post_url": "https://www.tanitjobs.com/job/553339/d\u00e9veloppeurs-web-php-h-f-decade-tunis/?backPage=&searchID=1560198308.1127",
+            "job_title": "D\u00e9veloppeurs Web PHP (H/F) - DECADE Tunis",
+            "job_description": "DECADE est un prestataire de services sp\u00e9cialis\u00e9 dans l\u2019e-commerce.\r\nFort de ses 30 ann\u00e9es d'exp\u00e9rience, dont une douzaine dans la r\u00e9alisation de sites e-commerce de r\u00e9f\u00e9rence, DECADE engage une nouvelle \u00e9tape ambitieuse de son d\u00e9veloppement.\r\nCelle-ci se traduit aujourd\u2019hui par une offre de services originale en termes de fiabilisation et d'accompagnement des projets et vise une future offre innovante dans le monde du commerce en ligne.\r\nCe que nous vous proposons\u00a0:\r\n- Contribuer \u00e0 la mise en \u0153uvre et \u00e0 la fiabilisation des projets e-commerce de grands acteurs de la distribution en France\r\n- Participer \u00e0 des projets d\u2019int\u00e9gration de plateformes leaders du march\u00e9 (SAP Hybris, Mirakl, Magento, \u2026), enrichir et faire \u00e9voluer ces int\u00e9grations pour accompagner les exp\u00e9rimentations e-commerce de nos clients.\r\n- B\u00e9n\u00e9ficier d\u2019un encadrement exp\u00e9riment\u00e9 qui vous permettra de progresser.\r\n- Intervenir dans des contextes strat\u00e9giques pour nos clients, engag\u00e9s dans des transformations e-commerce, pour vivre des challenges vari\u00e9s.\r\n- D\u00e9velopper vos comp\u00e9tences techniques, fonctionnelles, projets, \u2026 afin de vous ouvrir \u00e0 de multiples voies d\u2019\u00e9volution et d\u2019orientation de votre carri\u00e8re.\r\n- Participer \u00e0 un projet d'entreprise innovant et ambitieux.\r\n",
+            "job_requirements": "DECADE Tunisie souhaite renforcer ses \u00e9quipes \u00e0\u00a0Tunis\u00a0par des d\u00e9veloppeurs PHP ayant le profil suivant :\r\n- Exp\u00e9rience d\u2019au moins 2 ans dans le d\u00e9veloppement web avec la technologie PHP et sensibilit\u00e9 aux enjeux techniques correspondants (performance, s\u00e9curit\u00e9, robustesse, etc.).\r\n- Int\u00e9r\u00eat pour le domaine de l\u2019e-commerce, une exp\u00e9rience dans ce domaine serait un plus\r\n- Bonne capacit\u00e9 \u00e0 appr\u00e9hender les aspects fonctionnels et techniques des projets\r\n- Connaissance des m\u00e9thodes projet et des bonnes pratiques de travail en \u00e9quipe (gestion de sources, respect du planning, gestion des priorit\u00e9s, livraisons et suivi de livraisons, \u2026)\r\n- Autonomie et capacit\u00e9 \u00e0 appr\u00e9hender les \u00e9volutions technologiques du web au service des projets e-commerce\r\n- Bonne communication en fran\u00e7ais, \u00e0 l\u2019oral comme \u00e0 l\u2019\u00e9crit.",
+            "job_type": "CDI",
+            "location": "Tunis, Tunisie",
+            "publication_date": "17/05/2019",
+            "expiration_date": "16/06/2019",
+            "category_set": [
+                2,
+                22
+            ]
+        }
+    },
+    {
+        "model": "jobpost.JobPost",
+        "pk": 40,
+        "fields": {
+            "recruiter": 5,
+            "post_url": "https://www.tanitjobs.com/job/511397/d\u00e9veloppeurs-pl-sql-oracle-apex/?backPage=&searchID=1560198308.1127",
+            "job_title": "D\u00e9veloppeurs PL/SQL, ORACLE/APEX",
+            "job_description": "La soci\u00e9t\u00e9 Manwork expert en recrutement et placement du personnel recrute pour l'un de ses clients bas\u00e9e \u00e0 Munich/Allemagne et poss\u00e8de deux succursales en Suisse et en Tunisie, leader dans le domaine de la transformation digitale, plusieurs d\u00e9veloppeurs exp\u00e9riment\u00e9 dans PL/SQL et dans la conception de solutions avec ORACLE Forms /APEX.\r\n\u00a0\r\n",
+            "job_requirements": "Missions\r\n\r\nLa mod\u00e9lisation de sch\u00e9mas de la base de donn\u00e9es Oracle.\r\nLa cr\u00e9ation de scripts de chargement de donn\u00e9es.\r\nD\u00e9veloppement et maintenance des applications APEX.\r\nLe d\u00e9veloppement des interfaces.\r\nla personnalisation des rapports ainsi que la documentation technique et fonctionnelle.\r\n\r\n\u00a0\r\nActivit\u00e9s principales :\r\n\r\nLa participation \u00e0 la maintenance \u00e0 la fois \u00e9volutive et corrective des applications.\r\n\r\n\r\nLa contribution \u00e0 la r\u00e9ussite de nos projets.\r\n\r\n\r\nAssurez \u00e9galement un r\u00f4le de support aupr\u00e8s des utilisateurs.\r\n\r\nProfil demand\u00e9\r\nTitulaire d'un dipl\u00f4me en informatique de l'enseignement sup\u00e9rieur.\r\nUne exp\u00e9rience de 3 ans minimum dans cet environnement est exig\u00e9e.\r\nComp\u00e9tences requises\r\n\r\nVous avez de tr\u00e8s bonnes connaissances en : ORACLE, SQL, PL/SQL et des outils de d\u00e9veloppement associ\u00e9s.\r\n\r\n\r\nAvoir une bonne Connaissance des technologies Web (HTML, JavaScript).\r\n\r\n\r\nBonne Connaissance des environnements de d\u00e9veloppement Oracle (APEX, Oracle\r\n\r\nForms, ...).\r\n\r\nExperiences critiques avec PL/SQL, stored procedures, data base object modeling, performance tuning and data warehousing concepts avec Oracle.\r\n\r\nAtouts recherch\u00e9s : \r\n\r\nBonnes aptitudes en communication \u00e9crite et verbale en\r\nAvoir une bonne capacit\u00e9 de communication, d\u2019\u00e9coute et d\u2019analyse.\r\nResponsable, rigoureux et disciplin\u00e9.\r\nPoss\u00e8de un esprit d'initiative et de cr\u00e9ativit\u00e9.\r\nAisance verbale et r\u00e9dactionnelle.\r\nSavoir travailler en \u00e9quipe.\r\n\r\nNous vous offrons\u00a0:\r\n\r\nCarri\u00e8re et stabilit\u00e9.\r\nLa participation dans des projets de grandes envergures destin\u00e9es au march\u00e9 Europ\u00e9en.\r\nL\u2019int\u00e9gration d\u2019une \u00e9quipe jeune et motiv\u00e9e.\r\nUne r\u00e9mun\u00e9ration motivante.\r\nTickets restaurant.\r\nPrimes/projets.\r\nConvention de sport: Notre partenaire CALIFORNIA GYM.\r\n\r\n\r\nPoste \u00e0 pourvoir en CDI.\r\n\r\n\u00a0\r\nMerci d\u2019envoyer votre CV par e-mail\u00a0:\r\nrecrute@manwork.tn en indiquant l\u2019intitul\u00e9 du poste.\r\nEt inscrivez-vous sur notre site www.manwork.tn\r\n\u00a0",
+            "job_type": "CDI",
+            "location": "Tunis, Tunisie",
+            "publication_date": "04/01/2019",
+            "expiration_date": "29/12/2019",
+            "category_set": [
+                2
+            ]
+        }
+    }
+]

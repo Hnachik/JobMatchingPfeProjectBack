@@ -3,8 +3,9 @@ from django.core.management import call_command
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from ..serializers import JobCategorySerializer, JobPostSerializer, JobSeekerSerializer, ResumeListSerializer, \
-    ResumeUpdateSerializer, MatchedPostSerializer, ResumeSerializer, WorkHistorySerializer, EducationSerializer
-from ..models import JobPost, JobCategory, Resume, JobSeeker, WorkHistory, Education, MatchedPosts
+    ResumeUpdateSerializer, MatchedPostSerializer, ResumeSerializer, WorkHistorySerializer, EducationSerializer, \
+    ApplicationSerializer
+from ..models import JobPost, JobCategory, Resume, JobSeeker, WorkHistory, Education, MatchedPosts, Application
 from accounts.models import Recruiter
 
 
@@ -52,7 +53,7 @@ class EvaluateResumeListView(generics.ListAPIView):
     serializer_class = MatchedPostSerializer
 
     def get_queryset(self):
-        call_command('matching', self.request.user.jobseeker.id)
+        call_command('matchedPosts', self.request.user.jobseeker.id)
         queryset = MatchedPosts.objects.filter(seeker=self.request.user.jobseeker)
         return queryset
 
@@ -66,6 +67,15 @@ class MatchedPostsListView(generics.ListAPIView):
     def get_queryset(self):
         queryset = MatchedPosts.objects.filter(seeker=self.request.user.jobseeker)
         return queryset
+
+
+class MatchedPostsDetailView(generics.RetrieveUpdateDestroyAPIView):
+    permission_classes = [
+        permissions.IsAuthenticated
+    ]
+    serializer_class = MatchedPostSerializer
+    queryset = MatchedPosts.objects.all()
+    lookup_field = 'id'
 
 
 class ResumeCreateView(APIView):
@@ -145,6 +155,15 @@ class EducationBackgroundListView(generics.ListAPIView):
         queryset = Education.objects.filter(resume=self.request.user.jobseeker.resume)
         return queryset
 
+
+class ApplicationCreateView(generics.CreateAPIView):
+    permission_classes = [
+        permissions.IsAuthenticated
+    ]
+    serializer_class = ApplicationSerializer
+
+    def perform_create(self, serializer):
+        serializer.save(seeker=self.request.user.jobseeker)
 # class JobPostListView(generics.ListAPIView):
 #     queryset = JobPost.objects.all()
 #     # permission_classes = [permissions.IsAuthenticated, ]

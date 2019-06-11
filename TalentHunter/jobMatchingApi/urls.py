@@ -10,6 +10,7 @@ urlpatterns = [
         path('resume/<int:id>/', jobseeker.ResumeUpdateView.as_view()),
         path('resume/evaluate/', jobseeker.EvaluateResumeListView.as_view()),
         path('resume/matched-posts/', jobseeker.MatchedPostsListView.as_view()),
+        path('resume/matched-posts/<int:id>/', jobseeker.MatchedPostsDetailView.as_view()),
         path('resume/add/', jobseeker.ResumeCreateView.as_view()),
 
         path('whistory/add/', jobseeker.WorkHistoryCreateView.as_view()),
@@ -24,6 +25,8 @@ urlpatterns = [
         path('', recruiter.RecruiterView.as_view()),
         path('jobposts/', recruiter.JobPostListView.as_view()),
         path('allposts/', recruiter.JobPostAllView.as_view()),
+        path('post/evaluate/', recruiter.EvaluatePostListView.as_view()),
+        path('post/matched-resumes/', recruiter.MatchedResumesListView.as_view()),
         path('allposts/<int:id>/', recruiter.JobPostAllDetailView.as_view()),
         path('jobposts/<int:id>/', recruiter.JobPostDetailView.as_view()),
         path('jobpost/add/', recruiter.JobPostCreateView.as_view()),

@@ -70,6 +70,8 @@ class Education(models.Model):
 
 class MatchedPosts(models.Model):
     seeker = models.ForeignKey(JobSeeker, on_delete=models.CASCADE, related_name='matched_posts', blank=True, null=True)
+    recruiter = models.ForeignKey(Recruiter, on_delete=models.CASCADE, related_name='seeker_matched_posts',
+                                  blank=True, null=True)
     job_title = models.CharField(max_length=255, blank=True, null=False)
     job_description = models.TextField(null=True, blank=True)
     job_requirements = models.TextField(null=True, blank=True)
@@ -81,3 +83,24 @@ class MatchedPosts(models.Model):
 
     def __str__(self):
         return "Matched post of {}".format(self.seeker)
+
+
+class Application(models.Model):
+    published_date = models.DateField(auto_now=False, auto_now_add=False, blank=True)
+    seeker = models.ForeignKey(JobSeeker, on_delete=models.CASCADE, default=None, blank=True, null=True)
+    post = models.ForeignKey(JobPost, on_delete=models.CASCADE, default=None, blank=True, null=True)
+
+    def __str__(self):
+        return "Candidature of: {}".format(self.idSeeker)
+
+
+class MatchedResumes(models.Model):
+    recruiter = models.ForeignKey(Recruiter, on_delete=models.CASCADE, related_name='matched_resumes',
+                                  blank=True, null=True)
+    resume_title = models.CharField(max_length=255, blank=True, null=False)
+    seeker_name = models.CharField(max_length=255, blank=True, null=False)
+    cosine_distance = models.FloatField(null=True, blank=True)
+
+    def __str__(self):
+        return "Matched resumes of {}".format(self.recruiter)
+

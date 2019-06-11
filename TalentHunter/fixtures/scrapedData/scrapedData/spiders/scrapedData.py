@@ -16,7 +16,7 @@ class ScrapedDataSpider(scrapy.Spider):
 
         next_page = 'https://www.tanitjobs.com/jobs/?searchId=1559550706.3656&action=search&page=' + \
                     str(ScrapedDataSpider.page_number)
-        if ScrapedDataSpider.page_number < 1:
+        if ScrapedDataSpider.page_number < 160:
             ScrapedDataSpider.page_number += 1
             yield response.follow(next_page, callback=self.parse)
 

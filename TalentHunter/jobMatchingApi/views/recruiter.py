@@ -1,15 +1,18 @@
 from rest_framework import generics, permissions, viewsets
+from django.core.management import call_command
 from rest_framework.response import Response
 from rest_framework.views import APIView
-from ..serializers import JobCategorySerializer, JobPostSerializer, RecruiterSerializer, JobPostAllSerializer
+from ..serializers import JobCategorySerializer, JobPostSerializer, RecruiterSerializer, JobPostAllSerializer, \
+    MatchedResumeSerializer
 
-from ..models import JobPost, JobCategory
+from ..models import JobPost, JobCategory, MatchedResumes
 from accounts.models import Recruiter
 
 
 class JobCategoryListView(generics.ListAPIView):
     queryset = JobCategory.objects.all()
     serializer_class = JobCategorySerializer
+    lookup_field = 'id'
 
 
 class RecruiterView(generics.RetrieveAPIView):
@@ -57,7 +60,7 @@ class JobPostListView(generics.ListAPIView):
     permission_classes = [
         permissions.IsAuthenticated
     ]
-    serializer_class = JobPostSerializer
+    serializer_class = JobPostAllSerializer
     lookup_field = 'id'
 
     def get_queryset(self):
@@ -78,7 +81,7 @@ class JobPostDetailView(APIView):
 
     def get(self, request, id=None):
         instance = self.get_object(id)
-        serializer = JobPostSerializer(instance)
+        serializer = JobPostAllSerializer(instance)
         return Response(serializer.data)
 
     def put(self, request, id=None):
@@ -95,6 +98,28 @@ class JobPostDetailView(APIView):
         instance.delete()
         return Response(status=204)
 
+
+class EvaluatePostListView(generics.ListAPIView):
+    permission_classes = [
+        permissions.IsAuthenticated
+    ]
+    serializer_class = MatchedResumeSerializer
+
+    def get_queryset(self):
+        call_command('matching', self.request.user.recruiter.id)
+        queryset = MatchedResumes.objects.filter(recruiter=self.request.user.recruiter)
+        return queryset
+
+
+class MatchedResumesListView(generics.ListAPIView):
+    permission_classes = [
+        permissions.IsAuthenticated
+    ]
+    serializer_class = MatchedResumeSerializer
+
+    def get_queryset(self):
+        queryset = MatchedResumes.objects.filter(recruiter=self.request.user.recruiter)
+        return queryset
 # class JobPostListView(generics.ListAPIView):
 #     queryset = JobPost.objects.all()
 #     # permission_classes = [permissions.IsAuthenticated, ]

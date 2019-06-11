@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from .models import JobPost, JobCategory, Resume, WorkHistory, Education, MatchedPosts
+from .models import JobPost, JobCategory, Resume, WorkHistory, Education, MatchedPosts, Application, MatchedResumes
 from accounts.models import Recruiter, JobSeeker
 
 
@@ -24,8 +24,17 @@ class RecruiterSerializer(serializers.ModelSerializer):
 
 
 class MatchedPostSerializer(serializers.ModelSerializer):
+    recruiter = RecruiterSerializer(required=True)
+
     class Meta:
         model = MatchedPosts
+        fields = '__all__'
+
+
+class MatchedResumeSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = MatchedResumes
         fields = '__all__'
 
 
@@ -35,6 +44,13 @@ class JobPostAllSerializer(serializers.ModelSerializer):
     class Meta:
         model = JobPost
         fields = '__all__'
+
+
+class JobPostCleanSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = JobPost
+        fields = ('id', 'recruiter', 'post_url', 'job_title', 'job_type',
+                  'publication_date', 'expiration_date', 'job_description', 'job_requirements', 'location')
 
 
 class JobPostSerializer(serializers.ModelSerializer):
@@ -156,42 +172,49 @@ class ResumeSerializer(serializers.ModelSerializer):
             Education.objects.create(resume=resume, **educ)
         return resume
 
-        # resume = Resume()
-        # resume.seeker = data['seeker']
-        # resume.skills = data['skills']
-        # resume.save()
-        #
-        # for q in data['education_background']:
-        #     new_educ = Education()
-        #     new_educ.institute_name = q['institute_name']
-        #     new_educ.time_period = q['time_period']
-        #     new_educ.degree = q['degree']
-        #     new_educ.description = q['description']
-        #     new_educ.save()
-        #     new_educ.resume = resume
-        #     new_educ.save()
-        #
-        # for q in data['work_history']:
-        #     new_whistory = WorkHistory()
-        #     new_whistory.company_name = q['company_name']
-        #     new_whistory.time_period = q['time_period']
-        #     new_whistory.job_description = q['job_description']
-        #     new_whistory.designation = q['designation']
-        #     new_whistory.save()
-        #     new_whistory.resume = resume
-        #     new_whistory.save()
-        #
-        # return resume
 
+class ApplicationSerializer(serializers.ModelSerializer):
+    post = JobPostSerializer(required=True)
+
+    class Meta:
+        model = Application
+        fields = '__all__'
+
+    # resume = Resume()
+    # resume.seeker = data['seeker']
+    # resume.skills = data['skills']
+    # resume.save()
+    #
+    # for q in data['education_background']:
+    #     new_educ = Education()
+    #     new_educ.institute_name = q['institute_name']
+    #     new_educ.time_period = q['time_period']
+    #     new_educ.degree = q['degree']
+    #     new_educ.description = q['description']
+    #     new_educ.save()
+    #     new_educ.resume = resume
+    #     new_educ.save()
+    #
+    # for q in data['work_history']:
+    #     new_whistory = WorkHistory()
+    #     new_whistory.company_name = q['company_name']
+    #     new_whistory.time_period = q['time_period']
+    #     new_whistory.job_description = q['job_description']
+    #     new_whistory.designation = q['designation']
+    #     new_whistory.save()
+    #     new_whistory.resume = resume
+    #     new_whistory.save()
+    #
+    # return resume
 
 # post = JobPost()
-        # post.recruiter = data['recruiter']
-        # post.post_url = data['post_url']
-        # post.job_title = data['job_title']
-        # post.job_type = data['job_type']
-        # post.job_description = data['job_description']
-        # post.job_requirements = data['job_requirements']
-        # post.publication_date = data['publication_date']
-        # post.expiration_date = data['expiration_date']
-        # post.location = data['location']
-        # post.save()
+# post.recruiter = data['recruiter']
+# post.post_url = data['post_url']
+# post.job_title = data['job_title']
+# post.job_type = data['job_type']
+# post.job_description = data['job_description']
+# post.job_requirements = data['job_requirements']
+# post.publication_date = data['publication_date']
+# post.expiration_date = data['expiration_date']
+# post.location = data['location']
+# post.save()

@@ -9,7 +9,7 @@ class User(AbstractUser):
 
 class Recruiter(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE, related_name='recruiter')
-    company_name = models.CharField(max_length=50, null=True, blank=True)
+    company_name = models.CharField(max_length=150, null=True, blank=True)
     company_description = models.TextField(null=True, blank=True)
     company_logo = models.URLField(null=True, blank=True)
     address = models.CharField(max_length=120, null=True, blank=True)

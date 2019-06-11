@@ -15,8 +15,8 @@ from pandas.io.json import json_normalize
 from gensim.summarization import keywords
 from nltk.stem.porter import PorterStemmer
 from jobMatchingApi.views import CleaningGlassdoor
-from jobMatchingApi.models import Resume, JobPost, WorkHistory, Education, MatchedPosts
-from jobMatchingApi.serializers import ResumeListSerializer, ResumeSerializer
+from jobMatchingApi.models import Resume, JobPost, WorkHistory, Education, MatchedPosts, MatchedResumes
+from jobMatchingApi.serializers import ResumeListSerializer, ResumeSerializer, JobPostSerializer
 from sklearn.metrics.pairwise import cosine_similarity
 
 
@@ -157,7 +157,7 @@ class Command(BaseCommand):
     help = 'Closes the specified poll for voting'
 
     def add_arguments(self, parser):
-        parser.add_argument('seeker', type=int)
+        parser.add_argument('recruiter', type=int)
 
     def handle(self, *args, **options):
 
@@ -166,32 +166,39 @@ class Command(BaseCommand):
         # companies = df['company_name'].tolist()
         # positions = df['job_title'].tolist()
 
-        resume = Resume.objects.get(seeker=options['seeker'])
-        serializer = ResumeSerializer(resume)
+        post = JobPost.objects.get(recruiter=options['recruiter'])
+        serializer = JobPostSerializer(post)
 
         flat2 = flatten_json(serializer.data)
-        with open('cv.txt', 'w') as f:
+        with open('post.txt', 'w', encoding='utf-8') as f:
             for key in flat2.keys():
                 f.write("%s\r\n" % flat2[key])
 
-        with open('cv.txt', 'r') as f:
-            myResume = f.read()
+        with open('post.txt', 'r', encoding='utf-8') as f:
+            myPost = f.read()
 
-        MatchedPosts.objects.filter(seeker=options['seeker']).delete()
-        posts = JobPost.objects.all()
+        MatchedResumes.objects.filter(recruiter=options['recruiter']).delete()
+        resumes = Resume.objects.all()
+        seekers = []
+        resumesTitle = []
         jobD = []
-        company = []
-        jobTitles = []
 
-        for post in posts:
-            jobD.append(post.job_description)
-            company.append(post.recruiter)
-            jobTitles.append(post.job_title)
+        for resume in resumes:
+            serializer = ResumeSerializer(resume)
 
-        skills = []
-        for item in resume.skills:
-            skills.append(item['name'])
-        jobD.append(myResume)
+            flat2 = flatten_json(serializer.data)
+            with open('resume.txt', 'w', encoding='utf-8') as f:
+                for key in flat2.keys():
+                    f.write("%s\r\n" % flat2[key])
+
+            with open('resume.txt', 'r', encoding='utf-8') as f:
+                myResume = f.read()
+            resumesTitle.append(resume.resume_title)
+            print(resume.seeker)
+            seekers.append(resume.seeker)
+            jobD.append(myResume)
+
+        jobD.append(myPost)
         myVec = MyTfIdfVector(jobD)
 
         # Logging code taken from http://rare-technologies.com/word2vec-tutorial/
@@ -216,7 +223,7 @@ class Command(BaseCommand):
             jd_vector = []
             i = 0
             for word in y.split():
-                if word.lower() not in stopwords and len(word) > 1 and word not in skills:
+                if word.lower() not in stopwords and len(word) > 1 and word not in ['java', 'python']:
                     try:
                         x = model[word]
                         idx = myVec.get_features().index(word)
@@ -268,15 +275,15 @@ class Command(BaseCommand):
 
         summary = pd.DataFrame({
             # 'Company': jobTitles,
-            'job_title': jobTitles,
+            'resume_title': resumesTitle,
             'cosine_distance': cos_dist,
-            'job_description': jobD[:-1]
+            'seeker': seekers
         }).sort_values('cosine_distance', ascending=False)
         for i in summary.index:
-            matchedPost = MatchedPosts()
-            matchedPost.seeker = resume.seeker
-            matchedPost.job_title = summary.loc[i, 'job_title']
-            matchedPost.job_description = summary.loc[i, 'job_description']
-            matchedPost.cosine_distance = summary.loc[i, 'cosine_distance']
-            matchedPost.save()
+            matchedResumes = MatchedResumes()
+            matchedResumes.recruiter = post.recruiter
+            matchedResumes.resume_title = summary.loc[i, 'resume_title']
+            matchedResumes.seeker_name = summary.loc[i, 'seeker']
+            matchedResumes.cosine_distance = summary.loc[i, 'cosine_distance']
+            matchedResumes.save()
 
